@@ -14393,7 +14393,7 @@ only screen and (max-height: 400px) {
     font-family: poppins;
     font-size: 1.2em;
     text-decoration: none;
-    /* background: #60a3bc; */
+    background: #5ac88c;
     padding: 2vh;
     padding-left: 6vh;
     padding-right: 6vh;
@@ -14528,6 +14528,11 @@ only screen and (max-height: 400px) {
         width: 24%;
     }
     /* inicio tech seccion */
+    /* inicio formulario seccion */
+    .contentform{
+        width: 80%;
+    }
+    /* fin formulario seccion */
 }
 
 @media screen and (max-width: 480px) {
