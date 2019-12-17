@@ -14549,6 +14549,16 @@ only screen and (max-height: 400px) {
     .contentform{
         width: 80%;
     }
+    .tituloform{
+        padding-bottom: 0%;
+    }
+    .labform {
+        margin-bottom: 3%;
+        margin-top: 9%;
+    }
+    .botonesfield {
+        margin-top: 10%;
+    }
     /* fin formulario seccion */
 }
 
