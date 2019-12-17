@@ -360,9 +360,8 @@
                         <div class="contenido3">
                             
                             <div class="tituloboss">
-                                <h2>"El mundo no solo necesita mas tecnología; también es importante tener un equipo de personas comprometidas en apoyar y maximizar la eficiencia 
-                                    de las operaciones y la rentabilidad de los negocios, por medio de la investigación, desarrollo e implementación de soluciones tecnológicas 
-                                    funcionales e innovadoras. <br>Permitanos ser ese equipo !"</h2>
+                                <h2>"El mundo requiere más que solo tecnología... Necesita personas comprometidas en proveer soluciones tecnológicas funcionales e innovadoras
+                                    <br>Somos ese equipo... Somos ATS GROUP."</h2>
                             </div>
                             
                                 <div class="tituloboss">
@@ -622,7 +621,11 @@
                                         <div class="button_cont"><a class="example_b" href="#"  rel="nofollow noopener">Enviar</a></div>
                                     </div>
                                 </div>
-                                
+                                <div class="indicador">
+                                    <div class="formatopunto"><p class="activadoc" id="pu1">●</p c></div><div class="formatoraya raya1"><hr class="" id="ray1"></div>
+                                    <div class="formatopunto"><p class="" id="pu2">●</pid="pu1"></div><div class="formatoraya"><hr class="" id="ray2"></div>
+                                    <div class="formatopunto"><p class="" id="pu3">●</p></div>
+                                </div>
                             </form>
                         </div>
                     </div>
@@ -686,25 +689,37 @@
             var sec1 = document.getElementById('sec1');
             var sec2 = document.getElementById('sec2');
             var sec3 = document.getElementById('sec3');
+            var p2 = document.getElementById('pu2');
+            var r1 = document.getElementById('ray1');
+            var r2 = document.getElementById('ray2');
+            var p3 = document.getElementById('pu3');
             function pasar(){
                 sec1.classList.add('ocultar');
                 sec2.classList.remove('ocultar');
                 sec2.classList.add('dentro');
+                p2.classList.add('activadoc')
+                r1.classList.add('activador');
             }
             function retroceder(){
                 sec2.classList.add('ocultar');
                 sec1.classList.remove('ocultar');
                 sec1.classList.add('dentro');
+                p2.classList.remove('activadoc');
+                r1.classList.remove('activador');
             }
             function pasar2(){
                 sec2.classList.add('ocultar');
                 sec3.classList.remove('ocultar');
                 sec3.classList.add('dentro');
+                p3.classList.add('activadoc')
+                r2.classList.add('activador');
             }
             function retroceder2(){
                 sec3.classList.add('ocultar');
                 sec2.classList.remove('ocultar');
                 sec2.classList.add('dentro');
+                p3.classList.remove('activadoc');
+                r2.classList.remove('activador');
             }
         </script>
     </body>
