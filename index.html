@@ -360,7 +360,9 @@
                         <div class="contenido3">
                             
                             <div class="tituloboss">
-                                <h2>"Si continuamos desarrollando nuestra tecnología sin sabiduría o prudencia, nuestro servidor se convertirá en nuestro verdugo."</h2>
+                                <h2>"El mundo no solo necesita mas tecnología; también es importante tener un equipo de personas comprometidas en apoyar y maximizar la eficiencia 
+                                    de las operaciones y la rentabilidad de los negocios, por medio de la investigación, desarrollo e implementación de soluciones tecnológicas 
+                                    funcionales e innovadoras. <br>Permitanos ser ese equipo !"</h2>
                             </div>
                             
                                 <div class="tituloboss">
@@ -552,26 +554,75 @@
                         </div>
                         <div class="formcont">
                             <form action="">
-                                <div class="labform">
-                                    <label for="">Tipo de consulta:</label>
+                                <div class="seccionform1" id="sec1">
+                                    <div class="labform">
+                                        <label for="">Tipo de consulta:</label>
+                                    </div>
+                                    <div class="formitem">
+                                        <select name="consulta" id="" class="select-css">
+                                            <option value="1">Tengo una idea</option>
+                                            <option value="2">Consulta de productos</option>
+                                            
+                                        </select>
+                                    </div>
+                                    <div class="labform">
+                                        <label for="">¿Cual es tu nombre?</label>
+                                    </div>
+                                    <div class="formitem">
+                                        <input type="text" name="" id="" class="textboxform">
+                                    </div>
+                                    <div class="botonesfield">
+                                        <!-- <input type="submit" value="Siguiente" class="btn from-left"> -->
+                                        <div class="button_cont"><a class="example_b" href="#" rel="nofollow noopener" onclick="pasar()">Siguiente</a></div>
+                                    </div>
                                 </div>
-                                <div class="formitem">
-                                    <select name="consulta" id="" class="select-css">
-                                        <option value="1">example 1</option>
-                                        <option value="2">example 2</option>
-                                        <option value="3">example 3</option>
-                                    </select>
+                                
+                                <!-- seccion2 -->
+                                <div class="seccionform2 ocultar" id="sec2">
+                                    <div class="labform">
+                                        <label for="">Tipo de entidad:</label>
+                                    </div>
+                                    <div class="formitem">
+                                        <select name="consulta" id="" class="select-css">
+                                            <option value="1">Startup</option>
+                                            <option value="2">Persona natural</option>
+                                            <option value="3">Empresa</option>
+                                            <option value="3">ONG</option>
+                                        </select>
+                                    </div>
+                                    <div class="labform">
+                                        <label for="">¿Cual es tu correo de contacto?</label>
+                                    </div>
+                                    <div class="formitem">
+                                        <input type="text" name="" id="" class="textboxform">
+                                    </div>
+                                    <div class="botonesfield">
+                                        <!-- <input type="submit" value="Siguiente" class="btn from-left"> -->
+                                        <div class="button_cont"><a class="example_b" href="#"  rel="nofollow noopener" onclick="retroceder()">Atras</a></div>
+                                        <div class="button_cont"><a class="example_b" href="#"  rel="nofollow noopener"onclick="pasar2()">Siguiente</a></div>
+                                    </div>
                                 </div>
-                                <div class="labform">
-                                    <label for="">¿Cual es tu nombre?</label>
+                                <!-- seccion3 -->
+                                <div class="seccionform3 ocultar" id="sec3">
+                                    <div class="labform">
+                                        <label for="">¿Cual es tu numero de contacto?</label>
+                                    </div>
+                                    <div class="formitem">
+                                        <input type="text" name="" id="" class="textboxform">
+                                    </div>
+                                    <div class="labform">
+                                        <label for="">Hablanos sobre tu proyecto</label>
+                                    </div>
+                                    <div class="formitem">
+                                        <textarea name="" id="" cols="30" rows="8" class="textarearstyle"></textarea>
+                                    </div>
+                                    <div class="botonesfield">
+                                        <!-- <input type="submit" value="Siguiente" class="btn from-left"> -->
+                                        <div class="button_cont"><a class="example_b" href="#"  rel="nofollow noopener" onclick="retroceder2()">Atras</a></div>
+                                        <div class="button_cont"><a class="example_b" href="#"  rel="nofollow noopener">Enviar</a></div>
+                                    </div>
                                 </div>
-                                <div class="formitem">
-                                    <input type="text" name="" id="" class="textboxform">
-                                </div>
-                                <div class="botonesfield">
-                                    <!-- <input type="submit" value="Siguiente" class="btn from-left"> -->
-                                    <div class="button_cont"><a class="example_b" href="add-website-here" target="_blank" rel="nofollow noopener">Siguiente</a></div>
-                                </div>
+                                
                             </form>
                         </div>
                     </div>
@@ -631,6 +682,31 @@
         <!-- Resource jQuery -->
 
         <script src="/asset/web/js/main.js"></script>
+        <script>
+            var sec1 = document.getElementById('sec1');
+            var sec2 = document.getElementById('sec2');
+            var sec3 = document.getElementById('sec3');
+            function pasar(){
+                sec1.classList.add('ocultar');
+                sec2.classList.remove('ocultar');
+                sec2.classList.add('dentro');
+            }
+            function retroceder(){
+                sec2.classList.add('ocultar');
+                sec1.classList.remove('ocultar');
+                sec1.classList.add('dentro');
+            }
+            function pasar2(){
+                sec2.classList.add('ocultar');
+                sec3.classList.remove('ocultar');
+                sec3.classList.add('dentro');
+            }
+            function retroceder2(){
+                sec3.classList.add('ocultar');
+                sec2.classList.remove('ocultar');
+                sec2.classList.add('dentro');
+            }
+        </script>
     </body>
 
 

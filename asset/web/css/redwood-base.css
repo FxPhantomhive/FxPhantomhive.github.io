@@ -14074,7 +14074,7 @@ only screen and (max-height: 400px) {
 }
 
 .contenido3 {
-    padding: 10%;
+    padding: 6%;
     /* margin-top: 10%;
     margin-bottom: 10%;
     width: 100%;
@@ -14093,12 +14093,12 @@ only screen and (max-height: 400px) {
 }
 
 .tituloboss h2 {
-    font-size: 4.2rem;
+    font-size: 3.6rem;
     font-family: poppins;
     font-weight: 700;
     line-height: 1.3;
     color: rgb(255, 255, 255);
-    text-align: initial;
+    text-align: left;
 }
 
 .tituloboss h6 {
@@ -14413,6 +14413,20 @@ only screen and (max-height: 400px) {
     background-color: #5ac88c;
     }
 
+.textarearstyle{
+    width: 100%;    
+    background: transparent;
+    color: white;
+    font-family: poppins;
+    font-size: 1.2em;
+}
+.textarearstyle:hover{
+    border-color: #5ac88c;
+}
+.textarearstyle:focus{
+    border-color: #5ac88c;
+    
+}
 /* fin seccion form  */
 
 
@@ -14562,12 +14576,12 @@ only screen and (max-height: 400px) {
         /* justify-content: space-between; */
         flex-wrap: wrap;
         align-items: center;
-        height: 100vh;
+        height: auto;
         background: #1b264c;
         scroll-snap-align: start;
     }
     .tituloboss h2 {
-        font-size: 3.2rem;
+        font-size: 2.8rem;
         font-family: poppins;
         font-weight: 700;
         line-height: 1.3;
@@ -14649,4 +14663,27 @@ only screen and (max-height: 400px) {
         width: 28%;
     }
     /* inicio tech seccion */
+
+   
+
 }
+ /* funciones de animacioines */
+ .ocultar{
+     display: none;
+ }
+ .dentro{
+     animation: dentro 2s;
+ }
+
+ @keyframes dentro {
+    from {
+        opacity: 0;
+        
+    }
+    
+    to {
+        opacity: 1;
+        
+    }
+}
+
