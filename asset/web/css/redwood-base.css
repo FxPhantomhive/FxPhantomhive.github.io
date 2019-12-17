@@ -14294,12 +14294,15 @@ only screen and (max-height: 400px) {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 100vh;
+    height: 85vh;
     background: #1b264c;
     
 }
 .formitem{
     margin-bottom: 4%;
+}
+.tituloform{
+    padding-bottom: 5%;
 }
 .tituloform h2{
     font-size: 4.2rem;
