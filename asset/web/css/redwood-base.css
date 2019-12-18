@@ -13968,7 +13968,7 @@ only screen and (max-height: 400px) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: auto;
     background: #f9f9f9;
     scroll-snap-align: start;
 }
@@ -14010,7 +14010,7 @@ only screen and (max-height: 400px) {
 .parrafotexto {
     font-size: 1.4em;
     font-family: barlow;
-    color: slategray;
+    color: #33333f;
     padding-top: 4%;
     padding-bottom: 9%;
     line-height: 30px;
@@ -14124,9 +14124,9 @@ only screen and (max-height: 400px) {
 .segundasec {
     display: flex;
     margin-top: 2%;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    height: 100vh;
+    height: auto;
     background: #f9f9f9;
     scroll-snap-align: start;
 }
@@ -14140,24 +14140,25 @@ only screen and (max-height: 400px) {
 }
 
 .imagensec {
-    width: 45%;
-    height: 85%;
+    width: 48%;
+    height: 50em;
 }
 
 .imagensec img {
     width: 100%;
     height: 100%;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 .textsec {
-    width: 45%;
+    width: 48%;
+    margin-left: 2%;
 }
 
 .parrafotexto2 {
     font-size: 1.4em;
     font-family: barlow;
-    color: slategray;
+    color: #33333f;
     padding-top: 4%;
     padding-bottom: 4%;
     line-height: 30px;
@@ -14166,7 +14167,7 @@ only screen and (max-height: 400px) {
 .titulo h6 {
     font-size: 2.1rem;
     font-family: barlow;
-    color: darkblue;
+    color: #003B99;
 }
 
 .elementlist {
@@ -14180,7 +14181,7 @@ only screen and (max-height: 400px) {
 .elem p {
     margin: 0 0 1em;
     line-height: 1.4;
-    color: slategray;
+    color: #33333f;
     font-family: barlow;
     font-size: 1.4em;
     text-decoration: underline;
@@ -14207,9 +14208,9 @@ only screen and (max-height: 400px) {
 .tercerasec {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    height: 100vh;
+    height: auto;
     background: #f9f9f9;
     scroll-snap-align: start;
 }
@@ -14272,7 +14273,7 @@ only screen and (max-height: 400px) {
 .parrafotextotech {
     font-size: 1.4em;
     font-family: barlow;
-    color: slategray;
+    color: #33333f;
     padding-top: 2%;
     padding-bottom: 4%;
     line-height: 30px;
@@ -14303,6 +14304,7 @@ only screen and (max-height: 400px) {
 }
 .tituloform{
     padding-bottom: 5%;
+    padding-top: 5%;
 }
 .tituloform h2{
     font-size: 4.2rem;
@@ -14325,7 +14327,7 @@ only screen and (max-height: 400px) {
     max-width: 100%;
     box-sizing: border-box;
     margin: 0;
-    border: 1px solid #aaa;
+    border: 2px solid #a5a5aa;
     box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
     border-radius: 1.5em;
     -moz-appearance: none;
@@ -14370,7 +14372,7 @@ only screen and (max-height: 400px) {
     background: transparent;
     border: none;
     border-bottom: 2px solid;
-    border-color: gray;
+    border-color: #a5a5aa;
     color: white;
     font-size: 1.2em;
     font-family: poppins;
@@ -14415,13 +14417,41 @@ only screen and (max-height: 400px) {
     text-decoration: none;
     background-color: #5ac88c;
     }
+.example_b2 {
+    color: #fff !important;
+    text-transform: uppercase;
+    font-family: poppins;
+    font-size: 1.2em;
+    text-decoration: none;
+    background: transparent;
+    padding: 2vh;
+    padding-left: 6vh;
+    padding-right: 6vh;
+    border-radius: 20px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    /* border-bottom: 2px solid; */
+    border-color: #5ac88c;
+}
+.example_b2:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    text-decoration: none;
+    border: 1.5px solid;
+    border-color: #5ac88c;
+    background-color: transparent;
+    }
 
 .textarearstyle{
     width: 100%;    
     background: transparent;
-    color: white;
+    color: #a5a5aa;
     font-family: poppins;
     font-size: 1.2em;
+    border: 2px solid;
 }
 .textarearstyle:hover{
     border-color: #5ac88c;
@@ -14436,14 +14466,22 @@ only screen and (max-height: 400px) {
     margin-top: 4%;
 }
 .formatopunto p{
-    color: #797979;
+    color: #a5a5aa;
     font-size: 2em;
 }
 .formatoraya hr{
     height: 3px;
     width: 18em;
-    background: #797979;
+    background: #a5a5aa;
     margin: 1.5em 0.8em;
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6%;
+}
+.izquierda{
+    text-align: left;
 }
 .activadoc{
     color: #5ac88c !important;
@@ -14698,7 +14736,7 @@ only screen and (max-height: 400px) {
     .parrafotextotech {
         font-size: 1.2em;
         font-family: barlow;
-        color: slategray;
+        color: #33333f;
         padding-top: 2%;
         padding-bottom: 4%;
         line-height: 30px;
@@ -14715,8 +14753,8 @@ only screen and (max-height: 400px) {
     /* inicio formulario */
     .formatoraya hr {
         height: 3px;
-        width: 8em;
-        background: #797979;
+        width: 6em;
+        background: #a5a5aa;
         margin: 1.5em 0.8em;
     }
    /* fin formulario */

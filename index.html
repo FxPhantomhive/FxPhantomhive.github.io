@@ -388,7 +388,7 @@
                             <p>Second Section </p>
                         </div>
                         <div class="titulo">
-                            <h2>At Digital Assets, you'll make world-class wor wit a friendly and talented team</h2>
+                            <h2 class="izquierda">At Digital Assets, you'll make world-class wor wit a friendly and talented team</h2>
                         </div>
                         <div class="parrafo">
                             <p class="parrafotexto2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim earum veritatis recusandae in alias asperiores quo architecto iste quae odit. Sit libero, officia animi laudantium ullam porro rerum cum magnam! Lorem ipsum dolor
@@ -450,7 +450,7 @@
                             <p>Third Section </p>
                         </div>
                         <div class="titulo">
-                            <h2>At Digital Assets, you'll make world-class wor wit a friendly and talented team</h2>
+                            <h2 class="izquierda">At Digital Assets, you'll make world-class wor wit a friendly and talented team</h2>
                         </div>
                         <div class="parrafo">
                             <p class="parrafotexto2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim earum veritatis recusandae in alias asperiores quo architecto iste quae odit. Sit libero, officia animi laudantium ullam porro rerum cum magnam! Lorem ipsum dolor
@@ -597,7 +597,7 @@
                                     </div>
                                     <div class="botonesfield">
                                         <!-- <input type="submit" value="Siguiente" class="btn from-left"> -->
-                                        <div class="button_cont"><a class="example_b" href="#"  rel="nofollow noopener" onclick="retroceder()">Atras</a></div>
+                                        <div class="button_cont"><a class="example_b2" href="#"  rel="nofollow noopener" onclick="retroceder()">Atras</a></div>
                                         <div class="button_cont"><a class="example_b" href="#"  rel="nofollow noopener"onclick="pasar2()">Siguiente</a></div>
                                     </div>
                                 </div>
@@ -617,34 +617,47 @@
                                     </div>
                                     <div class="botonesfield">
                                         <!-- <input type="submit" value="Siguiente" class="btn from-left"> -->
-                                        <div class="button_cont"><a class="example_b" href="#"  rel="nofollow noopener" onclick="retroceder2()">Atras</a></div>
-                                        <div class="button_cont"><a class="example_b" href="#"  rel="nofollow noopener">Enviar</a></div>
+                                        <div class="button_cont"><a class="example_b2" href="#"  rel="nofollow noopener" onclick="retroceder2()">Atras</a></div>
+                                        <div class="button_cont"><a class="example_b" href="#"  rel="nofollow noopener"onclick="enviarcon()">Enviar</a></div>
                                     </div>
                                 </div>
-                                <div class="indicador">
+                                <div class="indicador" id="indic">
                                     <div class="formatopunto"><p class="activadoc" id="pu1">●</p c></div><div class="formatoraya raya1"><hr class="" id="ray1"></div>
                                     <div class="formatopunto"><p class="" id="pu2">●</pid="pu1"></div><div class="formatoraya"><hr class="" id="ray2"></div>
                                     <div class="formatopunto"><p class="" id="pu3">●</p></div>
                                 </div>
                             </form>
+                            <div class="seccionform3 ocultar" id="fin">
+                                
+                                <div class="labform centrar">
+                                    <label>Tu mensaje ahora esta con nosotros y pronto te contactaremos</label>
+                                </div>
+                                <div class="labform centrar">
+                                    <label>¿Quieres hacer otra consulta? Claro!</label>
+                                </div>
+                                <div class="botonesfield">
+                                    <div class="button_cont"><a class="example_b" href="#"  rel="nofollow noopener" onclick="nuevacon()">Nueva Consulta</a></div>
+                                </div>
+                                
+                            </div>
                         </div>
                     </div>
                 </div>
             <!-- fin contact form -->
         </div>
 
-            <div class="u10 u10v6"></div>
+            <!-- <div class="u10 u10v6"></div> -->
             <!-- /CH08v1 -->
             <!-- /CH08v1 -->
-            <div class="cw29">
+            <!-- <div class="cw29">
                 <div class="cw29w1">
-                    <ul class="cw29items">
+                    <ul class="cw29items"> -->
                         <!--<ul data-trackas="cw29items" class="cw29items">-->
 
 
-                    </ul>
+                    <!-- </ul>
                 </div>
-            </div>
+            </div> -->
             <!-- Footer -->
             <footer class="footer-ats-centered">
                 <a class="footer-company-logo" href="#">
@@ -693,12 +706,17 @@
             var r1 = document.getElementById('ray1');
             var r2 = document.getElementById('ray2');
             var p3 = document.getElementById('pu3');
+            var fin = document.getElementById('fin');
+            var ind = document.getElementById('indic');
+
             function pasar(){
                 sec1.classList.add('ocultar');
                 sec2.classList.remove('ocultar');
                 sec2.classList.add('dentro');
                 p2.classList.add('activadoc')
                 r1.classList.add('activador');
+                
+
             }
             function retroceder(){
                 sec2.classList.add('ocultar');
@@ -718,6 +736,21 @@
                 sec3.classList.add('ocultar');
                 sec2.classList.remove('ocultar');
                 sec2.classList.add('dentro');
+                p3.classList.remove('activadoc');
+                r2.classList.remove('activador');
+            }
+            function enviarcon(){
+                sec3.classList.add('ocultar');
+                fin.classList.remove('ocultar');
+                fin.classList.add('dentro');
+                ind.classList.add('ocultar');
+            }
+            function nuevacon(){
+                fin.classList.add('ocultar');
+                sec1.classList.remove('ocultar');
+                ind.classList.remove('ocultar');
+                p2.classList.remove('activadoc');
+                r1.classList.remove('activador');
                 p3.classList.remove('activadoc');
                 r2.classList.remove('activador');
             }
