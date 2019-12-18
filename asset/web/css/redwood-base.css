@@ -14479,6 +14479,7 @@ only screen and (max-height: 400px) {
     display: flex;
     justify-content: center;
     margin-bottom: 6%;
+    text-align: center;
 }
 .izquierda{
     text-align: left;
