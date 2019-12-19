@@ -26,6 +26,7 @@
 
     <!-- BEGIN: oWidget_C/_Raw-Text/Display -->
     <!-- BEGIN CSS/JS -->
+    
     <script>
         ! function() {
             var d = document.documentElement;
@@ -39,38 +40,39 @@
     <noscript>
         <link href="asset/web/css/redwood-base.css" rel="stylesheet">
     </noscript>
-    <script type="text/javascript" src="asset/web/js/ats-group.js"></script>
+    <!-- <script type="text/javascript" src="asset/web/js/ats-group.js"></script> -->
     <link data-wsjs data-reqjq href="asset/web/js/redwood-base.js" rel="preload" as="script">
     <script data-wsjs src="asset/web/js/jquery-min.js" async onload="$('head link[data-reqjq][rel=preload]').each(function(){var a = document.createElement('script');a.async=false;a.src=$(this).attr('href');this.parentNode.insertBefore(a, this);});$(function(){$('script[data-reqjq][data-src]').each(function(){this.async=true;this.src=$(this).data('src');});});"></script>
     <script src="asset/web/js/modernizr-custom.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <!-- script de animacion secciones ats -->
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script>
         // determina si un elemento comienza a ser visible
-        function isElementVisible(elem) {
+        function isElementVisible(elemento) {
             let viewScrollTop = $(window).scrollTop(); // distancia de scroll superior
             let viewBottom = viewScrollTop + $(window).height(); // distancia de scroll + el alto actual de window (lo no visible por scroll + lo visible)
-            let topElemD = $(elem).offset().top; // distancia desde el elemento hasta el tope superior del viewport
+            let topElemD = $(elemento).offset().top; // distancia desde el elemento hasta el tope superior del viewport
             return (topElemD < viewBottom);
         }
 
 
         // invoco una función anónima en el evento scroll sobre window
         $(window).on("scroll", function() {
-            let elem = $('#animated-div'); // obtengo el elemento por id
-            isElementVisible(elem) ? elem.addClass('animacionfade') : elem.removeClass('animacionfade'); // si es visible agrego la class, de lo contrario la remuevo
+            let elem1 = $('#primera'); // obtengo el elemento por id
+            isElementVisible(elem1) ? elem1.addClass('animacionfade') : elem1.removeClass('animacionfade'); // si es visible agrego la class, de lo contrario la remuevo
+            
             let elem2 = $('#segunda'); // obtengo el elemento por id
+            isElementVisible(elem2) ? elem2.addClass('animacionfade') : elem2.removeClass('animacionfade');
 
             let elemb = $('#boss'); // obtengo el elemento por id
             isElementVisible(elemb) ? elemb.addClass('animacionfade') : elemb.removeClass('animacionfade'); // si es visible agrego la class, de lo contrario la remuevo
 
-            isElementVisible(elem2) ? elem2.addClass('animacionfade') : elem2.removeClass('animacionfade'); // si es visible agrego la class, de lo contrario la remuevo
             let elem3 = $('#tercera'); // obtengo el elemento por id
             isElementVisible(elem3) ? elem3.addClass('animacionfade') : elem3.removeClass('animacionfade'); // si es visible agrego la class, de lo contrario la remuevo
         });
     </script>
     <!-- final de script de secciones ats -->
+    
     <!-- END CSS/JS -->
 
     <!-- END: oWidget_C/_Raw-Text/Display -->
@@ -141,7 +143,7 @@
                         <address>
                                 <ul class="cd-contact-info">
                                         <a class="company-logo" href="#">
-                                                <img src="/asset/web/images/logo-ats-white.png" />
+                                                <img src="asset/web/images/logo-ats-white.png" />
                                         </a>
                                     <li><a href="mailto:bussinness@atsgroup.tech">business@atsgroup.tech</a></li>
                                     <li>
@@ -319,7 +321,29 @@
                 <div class="controlscroll">
                     <!-- inicio primera seccion 01 ----- benefics -->
                     <div class="primerasec">
-                        <div class="contenido" id="animated-div">
+                        <div class="seccionmv">
+                            <div class="titulomv">
+                                <h2>Misión</h2>
+                            </div>
+                            <div class="parrafo">
+                                <p class="parrafotexto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim earum veritatis recusandae in alias asperiores quo architecto iste quae odit. Sit libero, officia animi laudantium ullam porro rerum cum magnam! Lorem ipsum
+                                    
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="seccionmv">
+                            <div class="titulomv">
+                                <h2>Visión</h2>
+                            </div>
+                            <div class="parrafo">
+                                <p class="parrafotexto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim earum veritatis recusandae in alias asperiores quo architecto iste quae odit. Sit libero, officia animi laudantium ullam porro rerum cum magnam! Lorem ipsum
+                                    
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="contenido ocultar" id="primera">
 
                             <div class="numero">
                                 <p>01.</p>
@@ -335,23 +359,13 @@
                                 </p>
 
                             </div>
-                            <div class="diviciones ocultar">
-                                <div class="secciones">
-                                    <img src="asset/web/images/weblabs.jpg" alt="weblabs">
-                                </div>
-                                <div class="secciones">
-                                    <img src="asset/web/images/weblabs.jpg" alt="weblabs">
-                                </div>
-                                <div class="secciones">
-                                    <img src="asset/web/images/weblabs.jpg" alt="weblabs">
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                     <!-- fin primera seccion 01 ----- benefics -->                    
 
             <!-- inicio seccion boss -->
-                <div class="bosssec" id="boss">
+                <div class="bosssec" id="">
                     <div class="imagensecboss">
                         <img src="asset/web/images/ceo2.jpg" alt="">
                     </div>
@@ -499,7 +513,7 @@
             <!-- fin tercera seccion 02 ----- benefics -->
             <!-- inicio primera seccion 01 ----- benefics -->
             <div class="techsec">
-                <div class="contenidotech" id="animated-div">
+                <div class="contenidotech" id="">
                     <div class="emblema">
                         <img src="asset/web/images/PropuestaFinal.png" alt="weblabs">
                     </div>
@@ -695,8 +709,8 @@
         </main>
         <!-- /U10v0 -->
         <!-- Resource jQuery -->
-
-        <script src="/asset/web/js/main.js"></script>
+        
+        <!-- <script src="/asset/web/js/main.js"></script> -->
         <script>
             var sec1 = document.getElementById('sec1');
             var sec2 = document.getElementById('sec2');
