@@ -4653,7 +4653,7 @@ div.truste-image {
 html,
 body {
     height: 100%;
-    background-color: #fcfbfa
+    background-color: #white
 }
 
 .f20v0 .f20w1 {
@@ -4855,7 +4855,7 @@ body.u28disable-scroll {
 }
 
 .u28.u28focus .u28w2 {
-    background-color: #fcfbfa !important
+    background-color: white !important
 }
 
 .u28.u28focus #askoracleinput {
@@ -13975,7 +13975,7 @@ only screen and (max-height: 400px) {
 
 .contenido {
     margin-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 6%;
     width: 60vw;
     height: auto;
 }
@@ -14017,7 +14017,7 @@ only screen and (max-height: 400px) {
     margin-bottom: 1%;
     background: #f9f9f9;
     text-align: center;
-    height: 55vh;
+    
 }
 .titulomv h2 {
     font-size: 4.5rem;
@@ -14031,7 +14031,7 @@ only screen and (max-height: 400px) {
     font-family: barlow;
     color: #33333f;
     padding-top: 4%;
-    padding-bottom: 9%;
+    padding-bottom: 2%;
     line-height: 30px;
 }
 
@@ -14274,6 +14274,7 @@ only screen and (max-height: 400px) {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 8%;
 }
 
 .titulotech {
@@ -14287,6 +14288,22 @@ only screen and (max-height: 400px) {
     font-family: poppins;
     font-weight: 700;
     color: #003B99;
+}
+.titulotech h3 {
+    font-size: 3.5rem;
+    font-family: poppins;
+    font-weight: 700;
+    color: #003B99;
+    text-align: center;
+}
+.titulotech hr {
+    color: #cbc5bf;
+    background-color: #00389d;
+    border: 0;
+    height: 2px;
+    margin: 1.2em 1em;
+    clear: both;
+    width: 10%;
 }
 
 .parrafotextotech {
@@ -14522,7 +14539,7 @@ only screen and (max-height: 400px) {
 @media screen and (max-width: 975px) {
     .controlscroll {
         scroll-snap-type: y mandatory;
-        background: #f9f9f9;
+        background: #fff;
     }
     /* inicio primera seccion */
     .primerasec {
@@ -14574,7 +14591,7 @@ only screen and (max-height: 400px) {
         align-items: center;
         height: auto;
         width: 95%;
-        background: #f9f9f9;
+        background: white;
         scroll-snap-align: start;
     }
     .imagensec {
@@ -14597,7 +14614,7 @@ only screen and (max-height: 400px) {
         padding-top: 10%;
         margin: 3%;
         height: auto;
-        background: #f9f9f9;
+        background: white;
         scroll-snap-align: start;
     }
     /* fin tercera seccion */
@@ -14658,7 +14675,7 @@ only screen and (max-height: 400px) {
 
 @media screen and (max-width: 480px) {
     .controlscroll {
-        background: #f9f9f9;
+        background: white;
     }
     /* inicio primera seccion */
     
@@ -14725,7 +14742,7 @@ only screen and (max-height: 400px) {
         align-items: center;
         height: auto;
         width: 95%;
-        background: #f9f9f9;
+        background: #fff;
         scroll-snap-align: start;
     }
     .imagensec {
@@ -14747,7 +14764,7 @@ only screen and (max-height: 400px) {
         width: 95%;
         margin: 3%;
         height: auto;
-        background: #f9f9f9;
+        background: #fff;
         scroll-snap-align: start;
     }
     /* fin tercera seccion */
