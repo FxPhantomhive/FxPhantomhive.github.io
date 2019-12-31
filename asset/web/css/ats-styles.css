@@ -1,7 +1,7 @@
 /*----------------Comienza estilos de footer-----------------*/
 
 .footer-ats-centered {
-    background-color: #19274e;
+    background-color: #1B264C;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 100%;
@@ -42,20 +42,6 @@
     margin-bottom: 40px;
 }
 
-h2,
-.linea {
-    font: normal 16px sans-serif;
-    margin-top: 30px;
-    text-align: center;
-    color: #ffffff;
-    font-size: 13px;
-    margin: 0;
-}
-
-h2.linea {
-    position: relative;
-    z-index: 1;
-}
 
 h2.linea:before {
     border-top: 0.5px solid #273a69;
@@ -197,10 +183,10 @@ main {
     transition-timing-function: cubic-bezier(0.91, 0.01, 0.6, 0.99);
 }
 
-main h1 {
+/*main h1 {
     font-size: 2.6rem;
     margin-bottom: 1em;
-}
+}*/
 
 .navigation-is-open main {
     -webkit-transform: translateX(100%);
