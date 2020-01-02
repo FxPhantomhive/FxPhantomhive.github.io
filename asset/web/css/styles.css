@@ -329,6 +329,8 @@ h4{
 /*#####   FIN     #####*/
 
 
+/*#####   PARTNERS   #####*/
+
 #partners-section .sub-title{
     margin-bottom: 25px;
 }
@@ -523,3 +525,140 @@ h4{
 
 
 /*#####   FIN     #####*/
+
+/*##### BIG TABLET STYLES ####*/
+@media screen and (max-width:1100px){
+    /*#### SECTION CONTAINERS ####*/
+    .section-single{padding: 0 100px;}
+    .section-single-full{padding: 0;}
+    .section-double, .section-double-full{
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0 100px;
+    }
+    .section-double-full{
+        padding: 0;
+    }
+    .section-double-inner, .section-double-full-inner{width: 100%;padding: 20px;margin-bottom: 10px;}
+    .section-double-full-inner{width: 100%; padding: 0;}
+    .section-double-full-contain{min-height: 500px;padding: 50px 100px;}
+
+    /*BACKGROUND*/
+    .section-double-full-inner .img-container{min-height: 500px;}
+    .min-separator{height: 25px;}
+    .middle-separator{height: 50px;}
+    .big-separator{height: 75px;}
+
+    /*##### OTHER STYLES #####*/
+    #mision-vision .section-double-inner{width: 49%;}
+    #tres-section{flex-wrap: wrap-reverse;}
+    #partners-section .section-double{padding: 0;}
+    
+}
+
+
+/*##### TABLET STYLES #####*/
+@media screen and (max-width: 768px){
+
+    /*Pre-title*/
+    .pre-title span{font-size: 1.6rem;}
+    
+    /*Titles*/
+    h1{font-size: 3.2rem;line-height: 4.5rem;}
+    h2{font-size: 2.4rem;line-height: 3.5rem;}
+    h3{font-size: 2.2rem;}
+    h4{font-size: 1.8rem;}
+    
+    /*Buttons*/
+    .button i{margin-left: 15px;}
+    .button .icon-reverse{margin-right: 15px;}
+    
+    /*#### SECTION CONTAINERS ####*/
+    .section-single{padding: 0 50px;}
+    .section-single-full{padding: 0 50px;}
+    .section-double, .section-double-full{
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0 50px;
+    }
+    .section-double-inner, .section-double-full-inner{width: 100%;padding: 20px;margin-bottom: 10px;}
+    .section-double-full-inner{width: 100%; padding: 0;}
+    .section-double-full-contain{min-height: 300px;padding: 50px 25px;}
+
+    /*BACKGROUND*/
+    .section-double-full-inner .img-container{min-height: 300px;}
+    .min-separator{height: 25px;}
+    .middle-separator{height: 50px;}
+    .big-separator{height: 75px;}
+        
+    /*#### PARAGRAPHS SECTIONS ####*/
+    .p-section p{font-size: 2rem;line-height: 3.4rem;}
+    .p-section-min p{font-size: 1.6rem;}
+
+    /*##### OTHER STYLES #####*/
+    #tres-section{flex-wrap: wrap-reverse;}
+    #partners-section .section-double{padding: 0;}
+
+    /*#### FOOTER ####*/
+    #footer .section-single{padding: 0;}
+    #footer .footer-links li{margin: 0;}
+    #footer .footer-contact-info li, #footer .footer-contact-info li a{text-align: center;padding: 5px 0;}
+    #footer .footer-copyright{font-size: 0.9rem;text-align: left;margin-bottom: 50px;}
+
+}
+
+
+
+/*##### MOBILE STYLES #####*/
+@media screen and (max-width: 480px){
+
+    /*Pre-title*/
+    .pre-title span{font-size: 1.5rem;}
+    
+    /*Titles*/
+    h1{font-size: 3rem;line-height: 4.5rem;}
+    h2{font-size: 2.2rem;line-height: 3.5rem;}
+    h3{font-size: 2rem;}
+    h4{font-size: 1.6rem;}
+    
+    /*Buttons*/
+    .button i{margin-left: 10px;}
+    .button .icon-reverse{margin-right: 10px;}
+    
+    /*#### SECTION CONTAINERS ####*/
+    .section-single{padding: 0 25px;}
+    .section-single-full{padding: 0 25px;}
+    .section-double, .section-double-full{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0 25px;
+    }
+    .section-double-inner, .section-double-full-inner{width: 100%;padding: 20px;margin-bottom: 10px;}
+    .section-double-full-inner{width: 100%; padding: 0;}
+    .section-double-full-contain{min-height: 500px;padding: 50px 25px;}
+
+    /*BACKGROUND*/
+    .section-double-full-inner .img-container{min-height: 150px;}
+    .min-separator{height: 25px;}
+    .middle-separator{height: 50px;}
+    .big-separator{height: 75px;}
+        
+    /*#### PARAGRAPHS SECTIONS ####*/
+    .p-section p{font-size: 1.8rem;line-height: 3.2rem;}
+    .p-section-min p{font-size: 1.6rem;}
+
+    /*##### OTHER STYLES #####*/
+    #mision-vision .section-double-inner{width: 100%;}
+    #tres-section{flex-direction: column-reverse;}
+    #partners-section .section-double{padding: 0;}
+
+    /*#### FOOTER ####*/
+    #footer .section-single{padding: 0;}
+    #footer .footer-links li{margin: 0;}
+    #footer .footer-contact-info li, #footer .footer-contact-info li a{text-align: center;padding: 5px 0;}
+    #footer .footer-copyright{font-size: 0.9rem;text-align: left;margin-bottom: 50px;}
+
+}
