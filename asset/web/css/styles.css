@@ -248,31 +248,31 @@ h4{
     background: #1B264C;
 }
 .cd-nav .cd-contact-info{
-    margin-top: 40px;
+    margin-top: 40px !important;
 }
 .cd-nav .cd-contact-info .company-logo img{
-    width: 100px;
+    width: 100px !important;
 }
 .cd-nav .cd-contact-info li span, .cd-nav .cd-contact-info li a{
-    font-family: 'Barlow';
-    font-style: normal;
-    letter-spacing: 1px;
-    font-size: 1.8rem;
+    font-family: 'Barlow' !important;
+    font-style: normal !important;
+    letter-spacing: 1px !important;
+    font-size: 1.8rem !important;
 }
 .cd-nav .cd-contact-info li{
-    margin-bottom: 15px;
+    margin-bottom: 15px !important;
 }
 .cd-nav .cd-contact-info li:first-child{
     padding-top: 10px;
 }
 
 .cd-nav .cd-primary-nav li a{
-    font-family: 'Poppins';
-    font-size: 3.6rem;
-    font-weight: 700;
+    font-family: 'Poppins' !important;
+    font-size: 3.6rem !important;
+    font-weight: 700 !important;
 }
 .cd-nav .cd-primary-nav li{
-    margin: 20px 0;
+    margin: 20px 0 !important;
 }
 
 #header-menu .button-primary{
