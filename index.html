@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
 <head>
     <meta name="theme-color" content="#1B264C" />
     <!--##########
@@ -19,13 +20,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <!--########## FIN ##########-->
-    
+
     <script>
         ! function() {
             var d = document.documentElement;
             d.className = d.className.replace(/no-js/, 'js');
             //  if (document.location.href.indexOf('betamode=') > -1) document.write('<script src="asset/web/js/ocom-betamode.js"><\/script>');
         }();
+
     </script>
 
     <link data-wsjs data-reqjq href="asset/web/js/redwood-base.js" rel="preload" as="script">
@@ -47,7 +49,7 @@
         $(window).on("scroll", function() {
             let elem1 = $('#primera'); // obtengo el elemento por id
             isElementVisible(elem1) ? elem1.addClass('animacionfade') : elem1.removeClass('animacionfade'); // si es visible agrego la class, de lo contrario la remuevo
-            
+
             let elem2 = $('#segunda'); // obtengo el elemento por id
             isElementVisible(elem2) ? elem2.addClass('animacionfade') : elem2.removeClass('animacionfade');
 
@@ -57,6 +59,7 @@
             let elem3 = $('#tercera'); // obtengo el elemento por id
             isElementVisible(elem3) ? elem3.addClass('animacionfade') : elem3.removeClass('animacionfade'); // si es visible agrego la class, de lo contrario la remuevo
         });
+
     </script>
 
     <!-- www-us HeadAdminContainer -->
@@ -75,6 +78,7 @@
         #oReactiveChatContainer1 {
             display: none;
         }
+
     </style>
 
     <!--########## IMPORTS ##########-->
@@ -89,310 +93,327 @@
 </head>
 
 <body class="f20 f20v0 f20home" style="opacity:0">
-        <!-- inicio menu nav -->
-        <nav>
-            <section class="u28 u28v0" id="header-menu" data-trackas="header">
-                <div class="u28w1">
-                    <div class="cwidth">
-                        <div class="u28s1">
-                            <a class="u28home rw-logo" href="index.html" tabindex=1>Home</a>
-                            <a href="#cd-nav" class="cd-nav-trigger">Menu 
-                                    <span class="cd-nav-icon"></span>                                    
-                                    <svg x="0px" y="0px" width="40px" height="40px" viewBox="0 0 40 40">
-                                    </svg>
-                                </a>
-                        </div>
-                        <div class="u28s2">
-                            <div class="u28-profile">
-                            </div>
-                        </div>
-                        <div class="u28s3">
-                            <a data-lbl="cloud-free-tier" href="#" class="button button-primary" tabindex=5>Trabajemos juntos</a>
+    <!-- inicio menu nav -->
+    <nav>
+        <section class="u28 u28v0" id="header-menu" data-trackas="header">
+            <div class="u28w1">
+                <div class="cwidth">
+                    <div class="u28s1">
+                        <a class="u28home rw-logo" href="index.html" tabindex=1>Home</a>
+                        <a href="#cd-nav" class="cd-nav-trigger">Menu
+                            <span class="cd-nav-icon"></span>
+                            <svg x="0px" y="0px" width="40px" height="40px" viewBox="0 0 40 40">
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="u28s2">
+                        <div class="u28-profile">
                         </div>
                     </div>
+                    <div class="u28s3">
+                        <a data-lbl="cloud-free-tier" href="#" class="button button-primary" tabindex=5>Trabajemos juntos</a>
+                    </div>
                 </div>
+            </div>
+            <nav id="u28nav" class="u28nav" data-trackas="menu">
+                <span class="mnavback u28back">Back</span>
+            </nav>
+        </section>
+        <div id="cd-nav" class="cd-nav">
+            <div class="cd-navigation-wrapper">
+                <div class="cd-half-block">
+                    <h2>&nbsp; </h2>
+
+                    <nav>
+                        <ul class="cd-primary-nav">
+                            <li><a href="#0" class="selected">Inicio</a></li>
+                            <li><a href="#0">Servicios</a></li>
+                            <li><a href="#0">Nosotros</a></li>
+                            <li><a href="#0">Contacto</a></li>
+
+                        </ul>
+                    </nav>
+                </div>
+                <!-- .cd-half-block -->
+                <div class="cd-half-block">
+                    <address>
+                        <ul class="cd-contact-info">
+                            <li>
+                                <a class="company-logo" href="#">
+                                    <img src="asset/web/images/atsfooter2.png" />
+                                </a>
+                            </li>
+                            <li><a href="mailto:bussinness@atsgroup.tech">business@atsgroup.tech</a></li>
+                            <li>
+                                <span>El Salvador</span>
+                                <span>Cima 3 Pasaje 21 #53-E</span>
+                                <span>San Salvador.</span>
+
+                            </li>
+                            <li>
+                                <span>EE UU, Oviedo florida.</span>
+                            </li>
+                        </ul>
+                    </address>
+                </div>
+                <!-- .cd-half-block -->
+            </div>
+            <!-- .cd-navigation-wrapper -->
+        </div>
+        <!-- .cd-nav -->
+    </nav>
+    <!-- termina  menu nav -->
+    <!-- Container/Display Start -->
+    <main>
+        <div class="f20w1">
+
+            <!-- U28v0 -->
+            <!-- U28v0 inide-->
+            <section class="u28 u28v0" id="u28" data-trackas="header">
                 <nav id="u28nav" class="u28nav" data-trackas="menu">
                     <span class="mnavback u28back">Back</span>
                 </nav>
             </section>
-            <div id="cd-nav" class="cd-nav">
-                <div class="cd-navigation-wrapper">
-                    <div class="cd-half-block">
-                        <h2>&nbsp; </h2>
-
-                        <nav>
-                            <ul class="cd-primary-nav">
-                                <li><a href="#0" class="selected">Inicio</a></li>
-                                <li><a href="#0">Servicios</a></li>
-                                <li><a href="#0">Nosotros</a></li>
-                                <li><a href="#0">Contacto</a></li>
-
-                            </ul>
-                        </nav>
-                    </div>
-                    <!-- .cd-half-block -->
-                    <div class="cd-half-block">
-                        <address>
-                                <ul class="cd-contact-info">
-                                    <li>
-                                        <a class="company-logo" href="#">
-                                            <img src="asset/web/images/atsfooter2.png"/>
-                                        </a>
-                                    </li>
-                                    <li><a href="mailto:bussinness@atsgroup.tech">business@atsgroup.tech</a></li>
-                                    <li>
-                                        <span>El Salvador</span>
-                                        <span>Cima 3 Pasaje 21 #53-E</span>
-                                        <span>San Salvador.</span>
-                                      
-                                    </li>
-                                    <li>
-                                        <span>EE UU, Oviedo florida.</span>
-                                    </li>
-                                </ul>
-                        </address>
-                    </div>
-                    <!-- .cd-half-block -->
-                </div>
-                <!-- .cd-navigation-wrapper -->
-            </div>
-            <!-- .cd-nav -->
-        </nav>
-        <!-- termina  menu nav -->
-        <!-- Container/Display Start -->
-        <main>
-            <div class="f20w1">
-
-                <!-- U28v0 -->
-                <!-- U28v0 inide-->
-                <section class="u28 u28v0" id="u28" data-trackas="header">
-                    <nav id="u28nav" class="u28nav" data-trackas="menu">
-                        <span class="mnavback u28back">Back</span>
-                    </nav>
-                </section>
-                <!-- RH02v0 -->
-                <section class="rh02 rh02v0 pghero" data-trackas="rh02" data-ocomid="rh02" data-backlbl="Back">
-                    <div class="rh02w1">
-                        <div class="rh02panel rh02p1" data-trackas="panel1:infra">
-                            <div class="rh02w2 darktheme">
-                                <div class="rh02w3">
-                                    <button class="rh02-pcontent">
+            <!-- RH02v0 -->
+            <section class="rh02 rh02v0 pghero" data-trackas="rh02" data-ocomid="rh02" data-backlbl="Back">
+                <div class="rh02w1">
+                    <div class="rh02panel rh02p1" data-trackas="panel1:infra">
+                        <div class="rh02w2 darktheme">
+                            <div class="rh02w3">
+                                <button class="rh02-pcontent">
                                     <h2 class="rh02-ttl">Gen 2 Cloud <b>Infrastructure</b></h2>
                                     <div class="rh02-sub">Highly automated and secure</div>
                                     <div class="rh02-leadin">
                                         <p>Oracle Cloud Infrastructure combines the elasticity and utility of public cloud with the granular control, security, and predictability of on-premise infrastructure.</p>
                                     </div>
                                 </button>
-                                    <div class="rh02w4">
-                                        <div class="rh02-cta">
-                                            <div class="obttns ">
-                                                <div><a href="#" data-lbl="cta-0912:button:cloud-infracturure ">Cloud Infrastructure overview</a></div>
-                                                <div class="obttn1 btn-liquid"><a href="#" data-lbl="cta-112219-cloud-sign-in">Sign in to Cloud</a></div>
+                                <div class="rh02w4">
+                                    <div class="rh02-cta">
+                                        <div class="obttns ">
+                                            <div><a href="#" data-lbl="cta-0912:button:cloud-infracturure ">Cloud Infrastructure overview</a></div>
+                                            <div class="obttn1 btn-liquid"><a href="#" data-lbl="cta-112219-cloud-sign-in">Sign in to Cloud</a></div>
 
-                                            </div>
-                                        </div>
-                                        <div class="rh02-xcontent">
-                                            <div class="rh02head">
-                                                <h5>Featured</h5>
-                                            </div>
-                                            <div class="rh02link">
-                                                <a href="#" data-lbl="cta-111819-panel1-pos1-hbr-automation">How AI and Automation Can Transform Complexity Into Profit</a>
-                                                <p style="font-color:white;">Harvard Business Review Analytic Services report: 77% of business leaders say top candidate for automation is operations.</p>
-                                            </div>
-
-                                            <div class="rh02link">
-                                                <a href="#" data-lbl="cta-111819-panel1-pos2-ovum-oci-gen2-cloud">Analyst Report: The Business Value of Cloud 2.0</a>
-                                                <p style="font-color:white;">Oracle meets expectations for reliability, security, and performance, Ovum says.</p>
-                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="rh02panel rh02p2" data-trackas="panel2:apps">
-                            <div class="rh02w2 darktheme">
-                                <div class="rh02w3">
-                                    <button class="rh02-pcontent">
-                                        <h2 class="rh02-ttl">Cloud <b>Applications</b></h2>
-                                        <div class="rh02-sub">Complete suite of integrated apps</div>
-                                        <div class="rh02-leadin">
-                                            <p>Streamline your business processes. With ERP Financials, Procurement, and more, you can increase productivity, lower costs, and improve controls.</p>
+                                    <div class="rh02-xcontent">
+                                        <div class="rh02head">
+                                            <h5>Featured</h5>
                                         </div>
-                                    </button>
-                                    <div class="rh02w4">
-                                        <div class="rh02-cta">
-                                            <div class="obttns">
-                                                <div><a href="#" data-lbl="cta-0912:button:cloud-applications">Cloud Applications overview</a></div>
-                                            </div>
+                                        <div class="rh02link">
+                                            <a href="#" data-lbl="cta-111819-panel1-pos1-hbr-automation">How AI and Automation Can Transform Complexity Into Profit</a>
+                                            <p style="font-color:white;">Harvard Business Review Analytic Services report: 77% of business leaders say top candidate for automation is operations.</p>
                                         </div>
 
-                                        <div class="rh02-xcontent">
-
-                                            <div class="rh02head">
-                                                <h5>Featured</h5>
-                                            </div>
-                                            <div class="rh02link">
-                                                <a href="#" data-lbl="cta-panel2-pos1-gartner-mq-cpq-apps">Oracle Named a Leader in 2019 Gartner Magic Quadrant for Configure, Price and Quote Application Suites</a>
-                                                <p>Gartner report highlights Oracle&rsquo;s growth in market share, comprehensive CPQ functionality, and scope of quote-to-cash offerings. Read the report.</p>
-                                            </div>
-                                            <div class="rh02link">
-                                                <a href="#" data-lbl="cta-110119-panel2-pos2-ai-wkplace-apps">AI Is Winning Hearts, Minds&mdash;and Trust&mdash;in the Workplace</a>
-                                                <p>64% of people trust a robot more than their manager, Oracle/Future Workplace research finds. Get the report.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="rh02panel rh02p3 rh02carousel" data-auto="5" data-trackas="panel3:about">
-                            <div class="rh02w2 darktheme" data-bgimg="/asset/web/images/rh02-western-digital-cloud-overlay-2x.jpg" data-bgimg2x="/asset/web/images/rh02-western-digital-cloud-overlay-2x.jpg">
-                                <div class="rh02w3">
-                                    <div class="rh02-pcontent">
-                                        <h2 class="rh02-ttl">Western Digital accesses data 25x faster with Oracle Cloud Applications</h2>
-                                        <p>Data warehouse refreshes have been cut from 8.5 hours to 20 minutes; cost centers have been reduced from 15,000 to 3,000.</p>
-                                        <div class="rh02-cta">
-                                            <div class="obttns">
-                                                <div><a href="#" rel="vbox" data-lbl="cta-1114-panel3-slide1-cust-video-west-digital-apps">Watch Western Digital video (1:35)</a></div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="rh02w2 darktheme" data-bgimg="/asset/web/images/rh02-database-2x.jpg" data-bgimg2x="/asset/web/images/rh02-database-2x.jpg">
-                                <div class="rh02w3">
-                                    <div class="rh02-pcontent">
-                                        <h2 class="rh02-ttl">About <b class="">ATS GROUP</b></h2>
-                                        <div class="rh02-sub">Unlock endless possibilities</div>
-                                        <div class="rh02-leadin">
-                                            <p>A culture of innovation has propelled Oracle since its inception. Today, thanks to exceptional people, we lead the market in autonomous, cloud, and applications technologies.</p>
-                                        </div>
-                                        <div class="rh02-cta">
-                                            <div class="obttns">
-                                                <div><a href="#" data-lbl="cta-0912:slide2:button:about-oracle-mission-overview">Our mission</a></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Default Panel -->
-                            <div class="rh02w2 darktheme" data-bgimg="/asset/web/images/rh02-earnings-2x.jpg" data-bgimg2x="/asset/web/images/rh02-earnings-2x.jpg">
-                                <div class="rh02w3">
-                                    <div class="rh02-pcontent">
-                                        <h2 class="rh02-ttl">Connecting finance and human resources in Oracle Cloud delivers faster monthly close, higher productivity</h2>
-                                        <div class="rh02-cta">
-                                            <div class="obttns">
-                                                <div><a href="#" data-lbl="cta-1104-panel3-Pos3-fin-hr-nucleus-apps">Get the Nucleus Research report</a></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="rh02w2 darktheme" data-bgimg="/asset/web/images/rh02-openworld-pre-event-2x.jpg" data-bgimg2x="/asset/web/images/rh02-openworld-pre-event-2x.jpg">
-                                <div class="rh02w3">
-                                    <div class="rh02-pcontent">
-                                        <h2 class="rh02-ttl rh02-longttl">Oracle named a leader in The Forrester Wave&trade;: Translytical Data Platforms, Q4 2019</h2>
-                                        <div class="rh02-leadin">
-                                            <p>Oracle scores highest in the current offering and strategy categories. Forrester notes that customers like Oracle databases&rsquo; capability to support many workloads including OLTP, IoT, microservices, and
-                                                AI/ML.
-                                            </p>
-                                        </div>
-                                        <div class="rh02-cta">
-                                            <div class="obttns">
-                                                <div><a href="#" target="_blank" data-lbl="cta-110419-panel3-Pos4-forr-wave-trans-wave-db-infra">Read the Forrester report</a></div>
-                                            </div>
+                                        <div class="rh02link">
+                                            <a href="#" data-lbl="cta-111819-panel1-pos2-ovum-oci-gen2-cloud">Analyst Report: The Business Value of Cloud 2.0</a>
+                                            <p style="font-color:white;">Oracle meets expectations for reliability, security, and performance, Ovum says.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section>
+                    <div class="rh02panel rh02p2" data-trackas="panel2:apps">
+                        <div class="rh02w2 darktheme">
+                            <div class="rh02w3">
+                                <button class="rh02-pcontent">
+                                    <h2 class="rh02-ttl">Cloud <b>Applications</b></h2>
+                                    <div class="rh02-sub">Complete suite of integrated apps</div>
+                                    <div class="rh02-leadin">
+                                        <p>Streamline your business processes. With ERP Financials, Procurement, and more, you can increase productivity, lower costs, and improve controls.</p>
+                                    </div>
+                                </button>
+                                <div class="rh02w4">
+                                    <div class="rh02-cta">
+                                        <div class="obttns">
+                                            <div><a href="#" data-lbl="cta-0912:button:cloud-applications">Cloud Applications overview</a></div>
+                                        </div>
+                                    </div>
 
-                <!-- /RH02v0 -->
+                                    <div class="rh02-xcontent">
 
-                <!-- U10v0 -->
-                <div class="separator middle-separator"></div>
-                <div class="controlscroll">
-                    <!-- inicio primera seccion 01 ----- benefics -->
-                    <div class="section-home">
-                        <div class="section-home-inner">
-                            <div class="section-single" id="primera">
-                                <div class="pre-title">
-                                    <span>01.</span>
-                                    <hr>
-                                    <span>Nosotros</span>
-                                </div>
-                                <div class="title">
-                                    <h1>At Digital Assets, you'll make world-class wor wit a friendly and talented team</h1>
-                                </div>
-                                <div class="p-section">
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim earum veritatis recusandae in alias asperiores quo architecto iste quae odit. Sit libero, officia animi laudantium ullam porro rerum cum magnam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quidem pariatur optio sapiente nihil voluptatum reiciendis assumenda earum laudantium ut, voluptates, perferendis porro. In quibusdam eos veritatis ipsa, ab doloribus.</p>
+                                        <div class="rh02head">
+                                            <h5>Featured</h5>
+                                        </div>
+                                        <div class="rh02link">
+                                            <a href="#" data-lbl="cta-panel2-pos1-gartner-mq-cpq-apps">Oracle Named a Leader in 2019 Gartner Magic Quadrant for Configure, Price and Quote Application Suites</a>
+                                            <p>Gartner report highlights Oracle&rsquo;s growth in market share, comprehensive CPQ functionality, and scope of quote-to-cash offerings. Read the report.</p>
+                                        </div>
+                                        <div class="rh02link">
+                                            <a href="#" data-lbl="cta-110119-panel2-pos2-ai-wkplace-apps">AI Is Winning Hearts, Minds&mdash;and Trust&mdash;in the Workplace</a>
+                                            <p>64% of people trust a robot more than their manager, Oracle/Future Workplace research finds. Get the report.</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-
-                            <div class="separator min-separator"></div>
-
-                            <div class="section-double" id="mision-vision">
-                                <div class="section-double-inner">
-                                    <svg class="icon-home" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 503.774 503.774" style="enable-background:new 0 0 503.774 503.774;" xml:space="preserve">
-                                        <g>
-                                            <g transform="translate(0 2)">
-                                                <g>
-                                                    <path style="fill:#003B992F;" d="M45.38,219.63h38.639v134.295H45.38c-11.11,0-20.116-9.006-20.116-20.116v-94.064C25.264,228.636,34.27,219.63,45.38,219.63z"/>
-                                                    <path style="fill:#FFF;" d="M352.609,493.213H151.166c0-29.965,38.442-54.725,88.131-58.25c4.113-0.336,8.309-0.504,12.59-0.504C307.536,434.459,352.609,460.73,352.609,493.213z"/>
-                                                </g>
-                                                <path style="fill:#003B992F;" d="M327.428,493.213H151.166c0-29.965,38.442-54.725,88.131-58.25C288.986,438.488,327.428,463.249,327.428,493.213z"/>
-                                                <path style="fill:#003B992F;" d="M151.166,219.63l26.199,26.199c4.722,4.722,11.127,7.375,17.805,7.375h31.537c13.907,0,25.18,11.274,25.18,25.18s-11.274,25.18-25.18,25.18h-48.324c-6.678,0-13.083-2.653-17.805-7.375L84.018,219.63H151.166z"/>
-                                                <path style="fill:#FFF;" d="M251.887,278.425c-0.021,13.898-11.282,25.159-25.18,25.18h-25.18c13.907,0,25.18-11.274,25.18-25.18s-11.274-25.18-25.18-25.18l25.18,0c6.681-0.009,13.091,2.641,17.815,7.365C249.246,265.334,251.896,271.744,251.887,278.425z"/>
-                                                <g>
-                                                    <path style="fill:#003B992F;" d="M151.166,352.455v110.626c-0.016,16.635-13.497,30.116-30.132,30.132h-6.883c-16.635-0.016-30.116-13.497-30.132-30.132V352.455H151.166z"/>
-                                                    <polygon style="fill:#003B992F;" points="151.166,286.818 151.166,352.455 84.018,352.455 84.018,219.671 			"/>
-                                                </g>
-                                                <path style="fill:#FFF;" d="M444.936,64.476h-58.754V30.902c-0.194-4.446-3.947-7.899-8.393-7.722H260.281c-4.447-0.177-8.2,3.276-8.393,7.722v60.097c0.194,4.446,3.947,7.898,8.393,7.722h67.148v41.967c-0.02,2.332,0.957,4.562,2.686,6.127c1.542,1.459,3.585,2.27,5.708,2.266h109.115c4.63-0.014,8.38-3.764,8.393-8.393V72.87C453.316,68.24,449.566,64.49,444.936,64.476z"/>
-                                                <path style="fill:#003B992F;" d="M386.182,30.902v67.819H260.281c-4.447,0.176-8.199-3.276-8.393-7.722V30.902c0.194-4.446,3.946-7.899,8.393-7.722h117.508C382.236,23.004,385.988,26.456,386.182,30.902z"/>
-                                                <path style="fill:#FFF;" d="M453.33,72.87v67.819c-0.014,4.63-3.764,8.38-8.393,8.393H335.822c-2.123,0.004-4.166-0.807-5.708-2.266l56.068-48.094V64.476h58.754C449.566,64.49,453.316,68.24,453.33,72.87z"/>
-                                                <path style="fill:#003B992F;" d="M428.149,72.87v67.819c-0.014,4.63-3.764,8.38-8.393,8.393h-83.934c-2.123,0.004-4.166-0.807-5.708-2.266l56.068-48.094V64.476h33.574C424.386,64.49,428.136,68.24,428.149,72.87z"/>
-                                                <path style="fill:#003B992F;" d="M193.133,143.458c0.002,20.416-8.258,39.965-22.899,54.194c-14.641,14.23-34.416,21.929-54.825,21.346c-39.846-1.571-71.787-33.513-73.359-73.359c-1.175-40.792,30.271-75.137,71.009-77.555c1.511-0.084,3.022-0.168,4.532-0.168v58.754c-0.001,4.453,1.767,8.723,4.915,11.872c3.148,3.148,7.419,4.917,11.872,4.915H193.133z"/>
-                                                <path style="fill:#FFF;" d="M117.592,67.945V126.7c0,9.271,7.516,16.787,16.787,16.787h58.754C193.133,101.766,159.312,67.945,117.592,67.945z"/>
-                                                <path style="fill:#003B992F;" d="M495.297,501.607H8.477c-4.636,0-8.393-3.758-8.393-8.393c0-4.636,3.758-8.393,8.393-8.393h486.82c4.636,0,8.393,3.758,8.393,8.393C503.69,497.849,499.933,501.607,495.297,501.607z"/>
-                                                <g>
-                                                    <path style="fill:#003B992F;" d="M184.74,140.689c0,0.923,0,1.847-0.084,2.77h-16.787c0.084-0.923,0.084-1.847,0.084-2.77c0.029-32.012-20.163-60.551-50.361-71.176v-1.595c-1.511,0-3.022,0.084-4.532,0.168c-3.999-1.197-8.102-2.012-12.254-2.434c2.785-0.338,5.588-0.506,8.393-0.504C150.917,65.151,184.736,98.97,184.74,140.689z"/>
-                                                    <path style="fill:#003B992F;" d="M117.592,69.512c-1.473-0.589-2.988-1.066-4.532-1.427c1.511-0.084,3.022-0.168,4.532-0.168V69.512z"/>
-                                                    <path style="fill:#FFF;" d="M193.133,143.458c0,55.984-43.142,72.771-83.934,72.771c-2.805,0.002-5.608-0.166-8.393-0.504c37.174-4.142,65.706-34.888,67.064-72.268H193.133z"/>
-                                                </g>
-                                            </g>
-                                            <g transform="translate(0 3)">
-                                                <path style="fill:#FFF;" d="M109.199,462.249V353.093h-25.18v109.156c0.009,8.224,3.396,16.084,9.368,21.739h25.18C112.595,478.333,109.208,470.473,109.199,462.249z"/>
-                                                <path style="fill:#FFF;" d="M25.264,238.913v94.064c0,11.11,9.006,20.116,20.116,20.116h25.18c-11.11,0-20.116-9.006-20.116-20.116v-94.064c0-11.109,9.006-20.115,20.116-20.115H45.38C34.271,218.798,25.264,227.803,25.264,238.913z"/>
-                                                <path style="fill:#003B992F;" d="M42.051,144.809c0.609,21.906,10.707,42.465,27.671,56.337c16.964,13.872,39.119,19.688,60.71,15.936c-35.435-6.242-61.74-36.322-63.201-72.273c-1.09-38.376,26.792-71.459,64.797-76.885c-7.378-2.377-15.079-3.594-22.83-3.608c-2.805-0.002-5.608,0.166-8.393,0.504c4.153,0.422,8.256,1.237,12.254,2.434C72.323,69.671,40.877,104.017,42.051,144.809z"/>
-                                                <path style="fill:#FFF;" d="M285.461,22.348h-25.18c-4.447-0.177-8.2,3.276-8.393,7.722v60.097c0.194,4.446,3.947,7.898,8.393,7.722h25.18c-4.447,0.176-8.199-3.276-8.393-7.722V30.07C277.261,25.624,281.014,22.171,285.461,22.348z"/>
-                                                <path style="fill:#FFF;" d="M25.264,492.381c-0.001-2.226,0.884-4.361,2.458-5.936c1.574-1.574,3.709-2.458,5.936-2.458H8.477c-4.636,0-8.393,3.758-8.393,8.393c0,4.636,3.758,8.393,8.393,8.393h25.18c-2.226,0.001-4.361-0.884-5.936-2.458C26.148,496.742,25.264,494.607,25.264,492.381z"/>
-                                            </g>
-                                            <g>
-                                                <polygon style="fill:#FFF;" points="75.625,465.039 75.625,355.924 75.625,221.629 92.412,221.629 92.412,355.924 92.412,465.039 		"/>
-                                                <g>
-                                                    <path style="fill:#003B99;" d="M495.297,486.82H360.102c-6.203-31.858-47.256-56.139-99.822-58.501V109.115h58.754v33.574c0.011,9.267,7.52,16.776,16.787,16.787h109.115c9.267-0.011,16.776-7.52,16.787-16.787V74.893c-0.011-9.267-7.52-16.776-16.787-16.787h-50.361v-25.18c-0.194-9.086-7.701-16.303-16.787-16.139H260.281V8.393c0-4.636-3.758-8.393-8.393-8.393c-4.636,0-8.393,3.758-8.393,8.393v243.088c-5.08-3.024-10.875-4.636-16.787-4.67h-31.541c-4.45-0.012-8.715-1.779-11.869-4.918l-23.386-23.386c5.873-3.415,11.311-7.526,16.198-12.245c21.695-21.1,30.351-52.245,22.655-81.513c-7.696-29.268-30.553-52.127-59.82-59.826S78.53,65.877,57.428,87.57c-15.876,16.217-24.449,38.21-23.737,60.893c0.953,25.683,13.565,49.53,34.256,64.775H45.379c-15.738,0.017-28.492,12.77-28.508,28.508v94.061c0.016,15.739,12.769,28.494,28.508,28.513h30.246c0.036,4.61,3.784,8.328,8.394,8.328c4.61,0,8.357-3.719,8.392-8.329v-1.461h50.361v102.184c-0.014,12.022-9.756,21.765-21.779,21.779h-6.803c-12.022-0.014-21.765-9.756-21.779-21.779l-0.001-0.001h0.001v-33.574c0-4.636-3.758-8.393-8.393-8.393c-4.636,0-8.393,3.758-8.393,8.393v33.574h0.001l-0.001,0.001c-0.002,7.78,2.365,15.377,6.786,21.779H8.477c-4.636,0-8.393,3.758-8.393,8.393c0,4.636,3.758,8.393,8.393,8.393h486.82c4.636,0,8.393-3.758,8.393-8.393C503.69,490.578,499.933,486.82,495.297,486.82z M159.559,459.063V308.146c5.557,3.763,12.108,5.787,18.82,5.812h48.328c5.912-0.034,11.707-1.646,16.787-4.669v119.029C207.735,429.925,177.332,441.67,159.559,459.063z M363.51,109.115l-27.689,23.75v-23.75H363.51z M444.936,74.893v67.795h-94.785l41.499-35.598c0.095-0.082,0.148-0.193,0.238-0.278c0.672-0.73,1.257-1.535,1.743-2.4c0.144-0.288,0.271-0.585,0.38-0.889c0.261-0.737,0.416-1.507,0.462-2.287c0.011-0.179,0.103-0.332,0.103-0.514V74.893H444.936z M377.789,32.926v59.402h-50.361c-0.523,0.053-1.039,0.157-1.541,0.311l-65.606,0.337V33.574L377.789,32.926z M195.166,263.598h31.541c9.271,0,16.787,7.516,16.787,16.787c0,9.271-7.516,16.787-16.787,16.787h-48.328c-4.45-0.012-8.715-1.779-11.869-4.918l-9.41-9.41l-52.82-52.82h43.41l23.738,23.738C177.737,260.038,186.267,263.573,195.166,263.598z M184.215,137.697h-49.836c-4.634-0.005-8.389-3.76-8.393-8.393v-49.84C156.395,83.343,180.337,107.287,184.215,137.697z M50.477,147.995c-0.975-34.552,24.429-64.203,58.721-68.541v49.849c0.015,13.9,11.28,25.165,25.18,25.18h49.844c-4.331,34.296-33.986,59.705-68.541,58.725C80.264,211.809,51.873,183.415,50.477,147.995L50.477,147.995z M33.658,335.807v-94.061c0.006-6.471,5.25-11.715,11.721-11.721h30.246v117.508H45.379C38.907,347.526,33.662,342.28,33.658,335.807zM92.412,346.07V241.893l50.361,50.361v53.816H92.412z M160.904,486.82c7.574-23.471,46.164-41.967,90.984-41.967s83.41,18.496,90.984,41.967H160.904z"/>
-                                                    <path style="fill:#003B99;" d="M80.83,405.617c0.476,0.242,0.986,0.41,1.512,0.5c0.554,0.094,1.114,0.151,1.676,0.168c2.222-0.031,4.351-0.9,5.959-2.434c2.036-1.962,2.93-4.828,2.37-7.599c-0.56-2.771-2.497-5.065-5.136-6.081c-1.01-0.431-2.095-0.659-3.193-0.672c-3.394,0.013-6.449,2.061-7.75,5.196s-0.596,6.744,1.791,9.157l1.258,1.008C79.785,405.178,80.294,405.433,80.83,405.617z"/>
-                                                </g></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
-                                    </svg>
-                                    <div class="sub-title">
-                                        <h3>Misión</h3>
-                                    </div>
-                                    <div class="p-section">
-                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim earum veritatis recusandae in alias asperiores quo architecto iste quae odit. Sit libero, officia animi laudantium ullam porro rerum cum magnam! Lorem ipsum</p>
+                        </div>
+                    </div>
+                    <div class="rh02panel rh02p3 rh02carousel" data-auto="5" data-trackas="panel3:about">
+                        <div class="rh02w2 darktheme" data-bgimg="/asset/web/images/rh02-western-digital-cloud-overlay-2x.jpg" data-bgimg2x="/asset/web/images/rh02-western-digital-cloud-overlay-2x.jpg">
+                            <div class="rh02w3">
+                                <div class="rh02-pcontent">
+                                    <h2 class="rh02-ttl">Western Digital accesses data 25x faster with Oracle Cloud Applications</h2>
+                                    <p>Data warehouse refreshes have been cut from 8.5 hours to 20 minutes; cost centers have been reduced from 15,000 to 3,000.</p>
+                                    <div class="rh02-cta">
+                                        <div class="obttns">
+                                            <div><a href="#" rel="vbox" data-lbl="cta-1114-panel3-slide1-cust-video-west-digital-apps">Watch Western Digital video (1:35)</a></div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="section-double-inner">
-                                    <svg class="icon-home" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+
+                            </div>
+                        </div>
+                        <div class="rh02w2 darktheme" data-bgimg="/asset/web/images/rh02-database-2x.jpg" data-bgimg2x="/asset/web/images/rh02-database-2x.jpg">
+                            <div class="rh02w3">
+                                <div class="rh02-pcontent">
+                                    <h2 class="rh02-ttl">About <b class="">ATS GROUP</b></h2>
+                                    <div class="rh02-sub">Unlock endless possibilities</div>
+                                    <div class="rh02-leadin">
+                                        <p>A culture of innovation has propelled Oracle since its inception. Today, thanks to exceptional people, we lead the market in autonomous, cloud, and applications technologies.</p>
+                                    </div>
+                                    <div class="rh02-cta">
+                                        <div class="obttns">
+                                            <div><a href="#" data-lbl="cta-0912:slide2:button:about-oracle-mission-overview">Our mission</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Default Panel -->
+                        <div class="rh02w2 darktheme" data-bgimg="/asset/web/images/rh02-earnings-2x.jpg" data-bgimg2x="/asset/web/images/rh02-earnings-2x.jpg">
+                            <div class="rh02w3">
+                                <div class="rh02-pcontent">
+                                    <h2 class="rh02-ttl">Connecting finance and human resources in Oracle Cloud delivers faster monthly close, higher productivity</h2>
+                                    <div class="rh02-cta">
+                                        <div class="obttns">
+                                            <div><a href="#" data-lbl="cta-1104-panel3-Pos3-fin-hr-nucleus-apps">Get the Nucleus Research report</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rh02w2 darktheme" data-bgimg="/asset/web/images/rh02-openworld-pre-event-2x.jpg" data-bgimg2x="/asset/web/images/rh02-openworld-pre-event-2x.jpg">
+                            <div class="rh02w3">
+                                <div class="rh02-pcontent">
+                                    <h2 class="rh02-ttl rh02-longttl">Oracle named a leader in The Forrester Wave&trade;: Translytical Data Platforms, Q4 2019</h2>
+                                    <div class="rh02-leadin">
+                                        <p>Oracle scores highest in the current offering and strategy categories. Forrester notes that customers like Oracle databases&rsquo; capability to support many workloads including OLTP, IoT, microservices, and
+                                            AI/ML.
+                                        </p>
+                                    </div>
+                                    <div class="rh02-cta">
+                                        <div class="obttns">
+                                            <div><a href="#" target="_blank" data-lbl="cta-110419-panel3-Pos4-forr-wave-trans-wave-db-infra">Read the Forrester report</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- /RH02v0 -->
+
+            <!-- U10v0 -->
+            <div class="separator middle-separator"></div>
+            <div class="controlscroll">
+                <!-- inicio primera seccion 01 ----- benefics -->
+                <div class="section-home">
+                    <div class="section-home-inner">
+                        <div class="section-single" id="primera">
+                            <div class="pre-title">
+                                <span>01.</span>
+                                <hr>
+                                <span>Nosotros</span>
+                            </div>
+                            <div class="title">
+                                <h1>At Digital Assets, you'll make world-class wor wit a friendly and talented team</h1>
+                            </div>
+                            <div class="p-section">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim earum veritatis recusandae in alias asperiores quo architecto iste quae odit. Sit libero, officia animi laudantium ullam porro rerum cum magnam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quidem pariatur optio sapiente nihil voluptatum reiciendis assumenda earum laudantium ut, voluptates, perferendis porro. In quibusdam eos veritatis ipsa, ab doloribus.</p>
+                            </div>
+                        </div>
+
+                        <div class="separator min-separator"></div>
+
+                        <div class="section-double" id="mision-vision">
+                            <div class="section-double-inner">
+                                <svg class="icon-home" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 503.774 503.774" style="enable-background:new 0 0 503.774 503.774;" xml:space="preserve">
+                                    <g>
+                                        <g transform="translate(0 2)">
+                                            <g>
+                                                <path style="fill:#003B992F;" d="M45.38,219.63h38.639v134.295H45.38c-11.11,0-20.116-9.006-20.116-20.116v-94.064C25.264,228.636,34.27,219.63,45.38,219.63z" />
+                                                <path style="fill:#FFF;" d="M352.609,493.213H151.166c0-29.965,38.442-54.725,88.131-58.25c4.113-0.336,8.309-0.504,12.59-0.504C307.536,434.459,352.609,460.73,352.609,493.213z" />
+                                            </g>
+                                            <path style="fill:#003B992F;" d="M327.428,493.213H151.166c0-29.965,38.442-54.725,88.131-58.25C288.986,438.488,327.428,463.249,327.428,493.213z" />
+                                            <path style="fill:#003B992F;" d="M151.166,219.63l26.199,26.199c4.722,4.722,11.127,7.375,17.805,7.375h31.537c13.907,0,25.18,11.274,25.18,25.18s-11.274,25.18-25.18,25.18h-48.324c-6.678,0-13.083-2.653-17.805-7.375L84.018,219.63H151.166z" />
+                                            <path style="fill:#FFF;" d="M251.887,278.425c-0.021,13.898-11.282,25.159-25.18,25.18h-25.18c13.907,0,25.18-11.274,25.18-25.18s-11.274-25.18-25.18-25.18l25.18,0c6.681-0.009,13.091,2.641,17.815,7.365C249.246,265.334,251.896,271.744,251.887,278.425z" />
+                                            <g>
+                                                <path style="fill:#003B992F;" d="M151.166,352.455v110.626c-0.016,16.635-13.497,30.116-30.132,30.132h-6.883c-16.635-0.016-30.116-13.497-30.132-30.132V352.455H151.166z" />
+                                                <polygon style="fill:#003B992F;" points="151.166,286.818 151.166,352.455 84.018,352.455 84.018,219.671 			" />
+                                            </g>
+                                            <path style="fill:#FFF;" d="M444.936,64.476h-58.754V30.902c-0.194-4.446-3.947-7.899-8.393-7.722H260.281c-4.447-0.177-8.2,3.276-8.393,7.722v60.097c0.194,4.446,3.947,7.898,8.393,7.722h67.148v41.967c-0.02,2.332,0.957,4.562,2.686,6.127c1.542,1.459,3.585,2.27,5.708,2.266h109.115c4.63-0.014,8.38-3.764,8.393-8.393V72.87C453.316,68.24,449.566,64.49,444.936,64.476z" />
+                                            <path style="fill:#003B992F;" d="M386.182,30.902v67.819H260.281c-4.447,0.176-8.199-3.276-8.393-7.722V30.902c0.194-4.446,3.946-7.899,8.393-7.722h117.508C382.236,23.004,385.988,26.456,386.182,30.902z" />
+                                            <path style="fill:#FFF;" d="M453.33,72.87v67.819c-0.014,4.63-3.764,8.38-8.393,8.393H335.822c-2.123,0.004-4.166-0.807-5.708-2.266l56.068-48.094V64.476h58.754C449.566,64.49,453.316,68.24,453.33,72.87z" />
+                                            <path style="fill:#003B992F;" d="M428.149,72.87v67.819c-0.014,4.63-3.764,8.38-8.393,8.393h-83.934c-2.123,0.004-4.166-0.807-5.708-2.266l56.068-48.094V64.476h33.574C424.386,64.49,428.136,68.24,428.149,72.87z" />
+                                            <path style="fill:#003B992F;" d="M193.133,143.458c0.002,20.416-8.258,39.965-22.899,54.194c-14.641,14.23-34.416,21.929-54.825,21.346c-39.846-1.571-71.787-33.513-73.359-73.359c-1.175-40.792,30.271-75.137,71.009-77.555c1.511-0.084,3.022-0.168,4.532-0.168v58.754c-0.001,4.453,1.767,8.723,4.915,11.872c3.148,3.148,7.419,4.917,11.872,4.915H193.133z" />
+                                            <path style="fill:#FFF;" d="M117.592,67.945V126.7c0,9.271,7.516,16.787,16.787,16.787h58.754C193.133,101.766,159.312,67.945,117.592,67.945z" />
+                                            <path style="fill:#003B992F;" d="M495.297,501.607H8.477c-4.636,0-8.393-3.758-8.393-8.393c0-4.636,3.758-8.393,8.393-8.393h486.82c4.636,0,8.393,3.758,8.393,8.393C503.69,497.849,499.933,501.607,495.297,501.607z" />
+                                            <g>
+                                                <path style="fill:#003B992F;" d="M184.74,140.689c0,0.923,0,1.847-0.084,2.77h-16.787c0.084-0.923,0.084-1.847,0.084-2.77c0.029-32.012-20.163-60.551-50.361-71.176v-1.595c-1.511,0-3.022,0.084-4.532,0.168c-3.999-1.197-8.102-2.012-12.254-2.434c2.785-0.338,5.588-0.506,8.393-0.504C150.917,65.151,184.736,98.97,184.74,140.689z" />
+                                                <path style="fill:#003B992F;" d="M117.592,69.512c-1.473-0.589-2.988-1.066-4.532-1.427c1.511-0.084,3.022-0.168,4.532-0.168V69.512z" />
+                                                <path style="fill:#FFF;" d="M193.133,143.458c0,55.984-43.142,72.771-83.934,72.771c-2.805,0.002-5.608-0.166-8.393-0.504c37.174-4.142,65.706-34.888,67.064-72.268H193.133z" />
+                                            </g>
+                                        </g>
+                                        <g transform="translate(0 3)">
+                                            <path style="fill:#FFF;" d="M109.199,462.249V353.093h-25.18v109.156c0.009,8.224,3.396,16.084,9.368,21.739h25.18C112.595,478.333,109.208,470.473,109.199,462.249z" />
+                                            <path style="fill:#FFF;" d="M25.264,238.913v94.064c0,11.11,9.006,20.116,20.116,20.116h25.18c-11.11,0-20.116-9.006-20.116-20.116v-94.064c0-11.109,9.006-20.115,20.116-20.115H45.38C34.271,218.798,25.264,227.803,25.264,238.913z" />
+                                            <path style="fill:#003B992F;" d="M42.051,144.809c0.609,21.906,10.707,42.465,27.671,56.337c16.964,13.872,39.119,19.688,60.71,15.936c-35.435-6.242-61.74-36.322-63.201-72.273c-1.09-38.376,26.792-71.459,64.797-76.885c-7.378-2.377-15.079-3.594-22.83-3.608c-2.805-0.002-5.608,0.166-8.393,0.504c4.153,0.422,8.256,1.237,12.254,2.434C72.323,69.671,40.877,104.017,42.051,144.809z" />
+                                            <path style="fill:#FFF;" d="M285.461,22.348h-25.18c-4.447-0.177-8.2,3.276-8.393,7.722v60.097c0.194,4.446,3.947,7.898,8.393,7.722h25.18c-4.447,0.176-8.199-3.276-8.393-7.722V30.07C277.261,25.624,281.014,22.171,285.461,22.348z" />
+                                            <path style="fill:#FFF;" d="M25.264,492.381c-0.001-2.226,0.884-4.361,2.458-5.936c1.574-1.574,3.709-2.458,5.936-2.458H8.477c-4.636,0-8.393,3.758-8.393,8.393c0,4.636,3.758,8.393,8.393,8.393h25.18c-2.226,0.001-4.361-0.884-5.936-2.458C26.148,496.742,25.264,494.607,25.264,492.381z" />
+                                        </g>
                                         <g>
-                                            <g transform="translate(1 3)">
-                                                <path style="fill:#FFF;" d="M160.808,500.467l-144.64-0.001c-2.514,0.03-4.911-1.059-6.542-2.971s-2.33-4.45-1.906-6.928c5.461-26.965,32.512-51.883,63.317-57.429c4.193-0.782,8.449-1.182,12.715-1.195C123.432,431.944,160.808,466.248,160.808,500.467z" />
-                                                <path style="fill:#003B992F;" d="M135.208,500.467l-119.04-0.001c-2.514,0.03-4.911-1.059-6.542-2.971s-2.33-4.45-1.906-6.928c5.461-26.965,32.512-51.883,63.317-57.429C105.597,439.453,135.208,470.003,135.208,500.467z" />
-                                                <path style="fill:#FFF;" d="M349.223,500.467H160.807c0-30.123,35.413-66.901,76.971-75.349c5.677-1.125,11.45-1.697,17.237-1.707C303.485,423.411,349.223,466.248,349.223,500.467z" />
-                                                <path style="fill:#003B992F;" d="M323.282,500.467H160.808c0-30.123,37.376-66.901,81.237-75.349C285.906,433.565,323.282,470.344,323.282,500.467z" />
-                                                <path style="fill:#FFF;" d="M493.864,500.467l-144.64,0.001c0-30.464,29.611-61.014,64.171-67.328c4.25-0.786,8.563-1.186,12.885-1.195c35.84,0,69.803,27.989,76.032,58.624c0.424,2.478-0.274,5.016-1.906,6.928C498.774,499.408,496.377,500.496,493.864,500.467z" />
-                                                <path style="fill:#003B992F;" d="M468.264,500.467l-119.04,0.001c0-30.464,29.611-61.014,64.171-67.328c30.805,5.547,57.856,30.464,63.317,57.429c0.424,2.478-0.274,5.016-1.906,6.928C473.174,499.408,470.777,500.496,468.264,500.467z" />
+                                            <polygon style="fill:#FFF;" points="75.625,465.039 75.625,355.924 75.625,221.629 92.412,221.629 92.412,355.924 92.412,465.039 		" />
+                                            <g>
+                                                <path style="fill:#003B99;" d="M495.297,486.82H360.102c-6.203-31.858-47.256-56.139-99.822-58.501V109.115h58.754v33.574c0.011,9.267,7.52,16.776,16.787,16.787h109.115c9.267-0.011,16.776-7.52,16.787-16.787V74.893c-0.011-9.267-7.52-16.776-16.787-16.787h-50.361v-25.18c-0.194-9.086-7.701-16.303-16.787-16.139H260.281V8.393c0-4.636-3.758-8.393-8.393-8.393c-4.636,0-8.393,3.758-8.393,8.393v243.088c-5.08-3.024-10.875-4.636-16.787-4.67h-31.541c-4.45-0.012-8.715-1.779-11.869-4.918l-23.386-23.386c5.873-3.415,11.311-7.526,16.198-12.245c21.695-21.1,30.351-52.245,22.655-81.513c-7.696-29.268-30.553-52.127-59.82-59.826S78.53,65.877,57.428,87.57c-15.876,16.217-24.449,38.21-23.737,60.893c0.953,25.683,13.565,49.53,34.256,64.775H45.379c-15.738,0.017-28.492,12.77-28.508,28.508v94.061c0.016,15.739,12.769,28.494,28.508,28.513h30.246c0.036,4.61,3.784,8.328,8.394,8.328c4.61,0,8.357-3.719,8.392-8.329v-1.461h50.361v102.184c-0.014,12.022-9.756,21.765-21.779,21.779h-6.803c-12.022-0.014-21.765-9.756-21.779-21.779l-0.001-0.001h0.001v-33.574c0-4.636-3.758-8.393-8.393-8.393c-4.636,0-8.393,3.758-8.393,8.393v33.574h0.001l-0.001,0.001c-0.002,7.78,2.365,15.377,6.786,21.779H8.477c-4.636,0-8.393,3.758-8.393,8.393c0,4.636,3.758,8.393,8.393,8.393h486.82c4.636,0,8.393-3.758,8.393-8.393C503.69,490.578,499.933,486.82,495.297,486.82z M159.559,459.063V308.146c5.557,3.763,12.108,5.787,18.82,5.812h48.328c5.912-0.034,11.707-1.646,16.787-4.669v119.029C207.735,429.925,177.332,441.67,159.559,459.063z M363.51,109.115l-27.689,23.75v-23.75H363.51z M444.936,74.893v67.795h-94.785l41.499-35.598c0.095-0.082,0.148-0.193,0.238-0.278c0.672-0.73,1.257-1.535,1.743-2.4c0.144-0.288,0.271-0.585,0.38-0.889c0.261-0.737,0.416-1.507,0.462-2.287c0.011-0.179,0.103-0.332,0.103-0.514V74.893H444.936z M377.789,32.926v59.402h-50.361c-0.523,0.053-1.039,0.157-1.541,0.311l-65.606,0.337V33.574L377.789,32.926z M195.166,263.598h31.541c9.271,0,16.787,7.516,16.787,16.787c0,9.271-7.516,16.787-16.787,16.787h-48.328c-4.45-0.012-8.715-1.779-11.869-4.918l-9.41-9.41l-52.82-52.82h43.41l23.738,23.738C177.737,260.038,186.267,263.573,195.166,263.598z M184.215,137.697h-49.836c-4.634-0.005-8.389-3.76-8.393-8.393v-49.84C156.395,83.343,180.337,107.287,184.215,137.697z M50.477,147.995c-0.975-34.552,24.429-64.203,58.721-68.541v49.849c0.015,13.9,11.28,25.165,25.18,25.18h49.844c-4.331,34.296-33.986,59.705-68.541,58.725C80.264,211.809,51.873,183.415,50.477,147.995L50.477,147.995z M33.658,335.807v-94.061c0.006-6.471,5.25-11.715,11.721-11.721h30.246v117.508H45.379C38.907,347.526,33.662,342.28,33.658,335.807zM92.412,346.07V241.893l50.361,50.361v53.816H92.412z M160.904,486.82c7.574-23.471,46.164-41.967,90.984-41.967s83.41,18.496,90.984,41.967H160.904z" />
+                                                <path style="fill:#003B99;" d="M80.83,405.617c0.476,0.242,0.986,0.41,1.512,0.5c0.554,0.094,1.114,0.151,1.676,0.168c2.222-0.031,4.351-0.9,5.959-2.434c2.036-1.962,2.93-4.828,2.37-7.599c-0.56-2.771-2.497-5.065-5.136-6.081c-1.01-0.431-2.095-0.659-3.193-0.672c-3.394,0.013-6.449,2.061-7.75,5.196s-0.596,6.744,1.791,9.157l1.258,1.008C79.785,405.178,80.294,405.433,80.83,405.617z" />
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                </svg>
+                                <div class="sub-title">
+                                    <h3>Misión</h3>
+                                </div>
+                                <div class="p-section">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim earum veritatis recusandae in alias asperiores quo architecto iste quae odit. Sit libero, officia animi laudantium ullam porro rerum cum magnam! Lorem ipsum</p>
+                                </div>
+                            </div>
+                            <div class="section-double-inner">
+                                <svg class="icon-home" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                    <g>
+                                        <g transform="translate(1 3)">
+                                            <path style="fill:#FFF;" d="M160.808,500.467l-144.64-0.001c-2.514,0.03-4.911-1.059-6.542-2.971s-2.33-4.45-1.906-6.928c5.461-26.965,32.512-51.883,63.317-57.429c4.193-0.782,8.449-1.182,12.715-1.195C123.432,431.944,160.808,466.248,160.808,500.467z" />
+                                            <path style="fill:#003B992F;" d="M135.208,500.467l-119.04-0.001c-2.514,0.03-4.911-1.059-6.542-2.971s-2.33-4.45-1.906-6.928c5.461-26.965,32.512-51.883,63.317-57.429C105.597,439.453,135.208,470.003,135.208,500.467z" />
+                                            <path style="fill:#FFF;" d="M349.223,500.467H160.807c0-30.123,35.413-66.901,76.971-75.349c5.677-1.125,11.45-1.697,17.237-1.707C303.485,423.411,349.223,466.248,349.223,500.467z" />
+                                            <path style="fill:#003B992F;" d="M323.282,500.467H160.808c0-30.123,37.376-66.901,81.237-75.349C285.906,433.565,323.282,470.344,323.282,500.467z" />
+                                            <path style="fill:#FFF;" d="M493.864,500.467l-144.64,0.001c0-30.464,29.611-61.014,64.171-67.328c4.25-0.786,8.563-1.186,12.885-1.195c35.84,0,69.803,27.989,76.032,58.624c0.424,2.478-0.274,5.016-1.906,6.928C498.774,499.408,496.377,500.496,493.864,500.467z" />
+                                            <path style="fill:#003B992F;" d="M468.264,500.467l-119.04,0.001c0-30.464,29.611-61.014,64.171-67.328c30.805,5.547,57.856,30.464,63.317,57.429c0.424,2.478-0.274,5.016-1.906,6.928C473.174,499.408,470.777,500.496,468.264,500.467z" />
                                             <g>
                                                 <path style="fill:#FFF;" d="M485.416,372.296c0.012,15.846-6.278,31.046-17.483,42.251s-26.405,17.494-42.251,17.483c-4.302-0.014-8.592-0.471-12.8-1.365c-27.408-6.024-46.933-30.306-46.933-58.368s19.525-52.344,46.933-58.368c4.208-0.894,8.498-1.351,12.8-1.365c15.846-0.012,31.046,6.278,42.251,17.483C479.138,341.25,485.427,356.45,485.416,372.296z" />
                                                 <path style="fill:#FFF;" d="M323.282,355.229c0.005,18.107-7.186,35.474-19.989,48.277c-12.804,12.804-30.17,19.994-48.277,19.989c-4.294-0.005-8.579-0.405-12.8-1.195c-32.188-6.152-55.467-34.302-55.467-67.072s23.279-60.92,55.467-67.072c4.221-0.79,8.506-1.19,12.8-1.195c18.107-0.005,35.474,7.186,48.277,19.989C316.097,319.756,323.287,337.122,323.282,355.229z" />
@@ -413,358 +434,760 @@
                                         </g>
                                         <g>
                                             <path style="fill:#003B99;" d="M461.295,434.195c25.172-14.785,38.133-43.959,32.231-72.548c-5.902-28.59-29.357-50.246-58.326-53.854v-9.126c0-4.713-3.821-8.533-8.533-8.533c-4.713,0-8.533,3.82-8.533,8.533v9.126c-29.055,3.621-52.552,25.393-58.373,54.089c-5.821,28.695,7.334,57.902,32.681,72.559c-18.078,7.974-33.073,21.609-42.725,38.849c-13.065-21.706-32.928-38.493-56.508-47.758c30.63-16.964,45.909-52.499,37.148-86.4c-8.761-33.901-39.343-57.584-74.357-57.584s-65.596,23.683-74.357,57.584c-8.761,33.901,6.517,69.436,37.148,86.4c-23.58,9.265-43.443,26.052-56.508,47.758c-9.652-17.24-24.647-30.875-42.725-38.849c25.347-14.657,38.502-43.864,32.681-72.559c-5.821-28.695-29.318-50.467-58.373-54.089v-9.126c0-4.713-3.821-8.533-8.533-8.533s-8.533,3.82-8.533,8.533v9.126c-28.969,3.607-52.424,25.264-58.326,53.854c-5.902,28.59,7.059,57.764,32.231,72.548c-24.9,10.281-43.545,31.634-50.376,57.693c-0.985,4.869,0.28,9.923,3.442,13.754c3.277,4.032,8.2,6.369,13.396,6.358h477.667c5.196,0.01,10.119-2.326,13.396-6.358c3.162-3.831,4.427-8.885,3.442-13.754C504.84,465.829,486.195,444.476,461.295,434.195z M375.467,375.467c0-20.708,12.474-39.378,31.607-47.303c19.132-7.925,41.154-3.544,55.797,11.099s19.024,36.665,11.099,55.797c-7.925,19.132-26.594,31.607-47.303,31.607C398.403,426.636,375.498,403.731,375.467,375.467z M196.267,358.4c0-32.99,26.744-59.733,59.733-59.733s59.733,26.744,59.733,59.733S288.99,418.133,256,418.133C223.026,418.096,196.304,391.375,196.267,358.4z M34.133,375.467c0-20.708,12.474-39.378,31.607-47.303c19.132-7.925,41.154-3.544,55.797,11.099c14.643,14.643,19.024,36.665,11.099,55.797c-7.925,19.132-26.594,31.607-47.303,31.607C57.069,426.636,34.164,403.731,34.133,375.467z M17.054,495.304c5.612-27.471,37.242-51.571,67.687-51.571c31.317,0,62.108,24.258,67.65,51.225L17.054,495.304z M171.45,494.933C178.388,467.221,216.8,435.2,256,435.2s77.612,32.021,84.55,59.733H171.45z M494.833,494.933H359.613c5.554-26.958,36.337-51.2,67.646-51.2c30.446,0,62.075,24.1,67.754,51.113C494.966,494.896,494.902,494.927,494.833,494.933z" />
+                                            <path style="fill:#003B99;" d="M76.8,204.8c0,4.713,3.821,8.533,8.533,8.533s8.533-3.821,8.533-8.533v-25.6c0-4.713-3.821-8.533-8.533-8.533S76.8,174.487,76.8,179.2V204.8z" />
+                                            <path style="fill:#003B99;" d="M76.8,264.533c0,4.713,3.821,8.533,8.533,8.533s8.533-3.82,8.533-8.533v-25.6c0-4.713-3.821-8.533-8.533-8.533s-8.533,3.821-8.533,8.533V264.533z" />
+                                            <path style="fill:#003B99;" d="M435.2,179.2c0-4.713-3.821-8.533-8.533-8.533c-4.713,0-8.533,3.821-8.533,8.533v25.6c0,4.713,3.821,8.533,8.533,8.533c4.713,0,8.533-3.821,8.533-8.533V179.2z" />
+                                            <path style="fill:#003B99;" d="M426.667,230.4c-4.713,0-8.533,3.821-8.533,8.533v25.6c0,4.713,3.821,8.533,8.533,8.533c4.713,0,8.533-3.82,8.533-8.533v-25.6C435.2,234.221,431.38,230.4,426.667,230.4z" />
+                                            <path style="fill:#003B99;" d="M256,0c-4.713,0-8.533,3.821-8.533,8.533v8.966c-54.453,4.26-97.707,47.515-101.968,101.968H93.867c-9.422,0.009-17.057,7.645-17.067,17.067v8.533c0,4.713,3.821,8.533,8.533,8.533s8.533-3.821,8.533-8.533v-8.533h51.632c4.26,54.453,47.515,97.707,101.968,101.968V256c0,4.713,3.821,8.533,8.533,8.533s8.533-3.821,8.533-8.533v-17.499c54.453-4.26,97.707-47.515,101.968-101.968h51.632v8.533c0,4.713,3.821,8.533,8.533,8.533c4.713,0,8.533-3.821,8.533-8.533v-8.533c-0.009-9.422-7.645-17.057-17.067-17.067h-51.632c-4.26-54.453-47.515-97.707-101.968-101.968V8.533C264.533,3.821,260.713,0,256,0z M247.467,136.533v33.271c-16.74-3.451-29.82-16.531-33.271-33.271H247.467z M214.196,119.467c3.451-16.74,16.531-29.82,33.271-33.271v33.271H214.196z M264.533,136.533h33.271c-3.451,16.74-16.531,29.82-33.271,33.271V136.533z M264.533,119.467V86.196c16.74,3.451,29.82,16.531,33.271,33.271H264.533z M247.467,34.566v34.382c-26.159,3.814-46.704,24.36-50.519,50.519h-34.382C166.737,74.418,202.418,38.737,247.467,34.566z M162.566,136.533h34.382c3.814,26.159,24.36,46.704,50.519,50.519v34.382C202.418,217.263,166.737,181.582,162.566,136.533z M264.533,221.434v-34.382c26.159-3.814,46.704-24.36,50.519-50.519h34.382C345.264,181.582,309.582,217.263,264.533,221.434z M349.434,119.467h-34.382c-3.814-26.159-24.36-46.704-50.519-50.519V34.566C309.582,38.737,345.264,74.418,349.434,119.467z" />
+                                        </g>
+                                    </g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                    <g></g>
+                                </svg>
+                                <div class="sub-title">
+                                    <h3>Visión</h3>
+                                </div>
+                                <div class="p-section">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim earum veritatis recusandae in alias asperiores quo architecto iste quae odit. Sit libero, officia animi laudantium ullam porro rerum cum magnam! Lorem ipsum</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="separator middle-separator"></div>
+
+                        <div class="section-double-full" id="boss-section">
+                            <div class="section-double-full-inner">
+                                <div class="img-container boss-img"></div>
+                            </div>
+                            <div class="section-double-full-inner">
+                                <div class="section-double-full-contain">
+                                    <div class="pre-title">
+                                        <span>02.</span>
+                                        <hr>
+                                        <span>Lider</span>
+                                    </div>
+                                    <div class="title">
+                                        <h2>"El mundo requiere más que solo tecnología... Necesita personas comprometidas en proveer soluciones tecnológicas funcionales e innovadoras <br>Somos ese equipo... Somos ATS GROUP."</h2>
+                                    </div>
+                                    <div class="subtitle">
+                                        <h4>Rodrigo Artiga -<span> CEO ATS Group</span></h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="section-double-full" id="atsfordevs-section">
+                            <div class="section-double-full-inner">
+                                <div class="section-double-full-contain">
+                                    <div class="pre-title">
+                                        <span>03.</span>
+                                        <hr>
+                                        <span>ATS for Devs</span>
+                                    </div>
+                                    <div class="titulo">
+                                        <h1 class="izquierda">Apoyamos a la comunidad de Desarrolladores</h1>
+                                    </div>
+                                    <div class="p-section">
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim earum veritatis recusandae in alias asperiores quo architecto iste quae odit. Sit libero, officia animi laudantium ullam porro rerum cum magnam! Lorem ipsum dolor
+                                            sit amet consectetur adipisicing elit. Excepturi quidem pariatur optio sapiente nihil voluptatum reiciendis assumenda earum laudantium ut, voluptates, perferendis porro. In quibusdam eos veritatis ipsa, ab doloribus.
+                                        </p>
+                                    </div>
+                                    <a href="#" class="button button-primary">Conoce más <i class="ri-arrow-right-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="section-double-full-inner">
+                                <div class="img-container atsfordevs-img"></div>
+                            </div>
+                        </div>
+
+                        <div class="section-double-full" id="tres-section">
+                            <div class="section-double-full-inner">
+                                <div class="img-container section-img"></div>
+                            </div>
+
+                            <div class="section-double-full-inner">
+                                <div class="section-double-full-contain">
+                                    <div class="pre-title">
+                                        <span>04.</span>
+                                        <hr>
+                                        <span>Tercera Seccion</span>
+                                    </div>
+                                    <div class="title">
+                                        <h1>Sección numero 3</h1>
+                                    </div>
+                                    <div class="p-section">
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim earum veritatis recusandae in alias asperiores quo architecto iste quae odit. Sit libero, officia animi laudantium ullam porro rerum cum magnam! Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <a href="#" class="button button-primary">Conoce más <i class="ri-arrow-right-line"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="separator middle-separator"></div>
+
+                    <div class="section-single" id="partners-section">
+                        <div class="pre-title">
+                            <span>04.</span>
+                            <hr>
+                            <span>Partners</span>
+                        </div>
+                        <div class="title">
+                            <h1>Trabajamos con los mejores</h1>
+                        </div>
+                        <div class="p-section">
+                            <p>Hemos tenido la oportunidad de trabajar hombro a hombro con otras empresas que decidieron confiar en nosotros y ahora forman parte de la historia de nuestra empresa.</p>
+                        </div>
+
+                        <div class="separator min-separator"></div>
+
+                        <div class="section-double" id="mision-vision">
+                            <div class="section-double-inner">
+                                <div class="sub-title">
+                                    <h3>Partners Estratégicos</h3>
+                                </div>
+                                <div class="icon-section">
+                                    <img src="asset/web/images/dealapar.png" width="145px" alt="weblabs">
+                                    <img src="asset/web/images/mosaik.png" width="70px" alt="weblabs">
+                                    <img src="asset/web/images/gloriakriete.png" width="55px" alt="weblabs">
+                                </div>
+                            </div>
+                            <div class="section-double-inner">
+                                <div class="sub-title">
+                                    <h3>Partners Técnicos</h3>
+                                </div>
+                                <div class="icon-section">
+                                    <img src="asset/web/images/b2chat.png" width="120px" alt="">
+                                    <img src="asset/web/images/bitrix.png" width="125px" alt="weblabs">
+                                    <img src="asset/web/images/hostgator.png" width="125px" alt="weblabs">
+                                    <img src="asset/web/images/sugarcrm.svg" width="130px" alt="weblabs">
+                                    <img src="asset/web/images/speak.svg" width="60px" alt="weblabs">
+                                    <img src="asset/web/images/greengeks.png" width="130px" alt="weblabs">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="separator middle-separator"></div>
+                    <div class="section-single">
+                        <div class="pre-title">
+                            <span>05.</span>
+                            <hr>
+                            <span>Nuestros Servicios</span>
+                        </div>
+                        <div class="title">
+                            <h1>¿Porque elegirnos?</h1>
+                        </div>
+                        <div class="p-section">
+                            <p>Nos sentamos del mismo lado de la mesa que USTED para brindar las mejores soluciones a los problemas. Escuchamos su idea y ofrecemos varias estrategias para resolver de raíz y alcanzar sus objetivos.</p>
+                        </div>
+
+                        <div class="separator min-separator"></div>
+
+                        <div class="boxes">
+                            <div class="services-grid">
+                                <div class="service service1 item">
+                                    <svg class="icon-services" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                        <g>
+                                            <g transform="translate(1 3)">
+                                                <path style="fill:#FFF;" d="M160.808,500.467l-144.64-0.001c-2.514,0.03-4.911-1.059-6.542-2.971s-2.33-4.45-1.906-6.928c5.461-26.965,32.512-51.883,63.317-57.429c4.193-0.782,8.449-1.182,12.715-1.195C123.432,431.944,160.808,466.248,160.808,500.467z" />
+                                                <path style="fill:#003B992F;" d="M135.208,500.467l-119.04-0.001c-2.514,0.03-4.911-1.059-6.542-2.971s-2.33-4.45-1.906-6.928c5.461-26.965,32.512-51.883,63.317-57.429C105.597,439.453,135.208,470.003,135.208,500.467z" />
+                                                <path style="fill:#FFF;" d="M349.223,500.467H160.807c0-30.123,35.413-66.901,76.971-75.349c5.677-1.125,11.45-1.697,17.237-1.707C303.485,423.411,349.223,466.248,349.223,500.467z" />
+                                                <path style="fill:#003B992F;" d="M323.282,500.467H160.808c0-30.123,37.376-66.901,81.237-75.349C285.906,433.565,323.282,470.344,323.282,500.467z" />
+                                                <path style="fill:#FFF;" d="M493.864,500.467l-144.64,0.001c0-30.464,29.611-61.014,64.171-67.328c4.25-0.786,8.563-1.186,12.885-1.195c35.84,0,69.803,27.989,76.032,58.624c0.424,2.478-0.274,5.016-1.906,6.928C498.774,499.408,496.377,500.496,493.864,500.467z" />
+                                                <path style="fill:#003B992F;" d="M468.264,500.467l-119.04,0.001c0-30.464,29.611-61.014,64.171-67.328c30.805,5.547,57.856,30.464,63.317,57.429c0.424,2.478-0.274,5.016-1.906,6.928C473.174,499.408,470.777,500.496,468.264,500.467z" />
+                                                <g>
+                                                    <path style="fill:#FFF;" d="M485.416,372.296c0.012,15.846-6.278,31.046-17.483,42.251s-26.405,17.494-42.251,17.483c-4.302-0.014-8.592-0.471-12.8-1.365c-27.408-6.024-46.933-30.306-46.933-58.368s19.525-52.344,46.933-58.368c4.208-0.894,8.498-1.351,12.8-1.365c15.846-0.012,31.046,6.278,42.251,17.483C479.138,341.25,485.427,356.45,485.416,372.296z" />
+                                                    <path style="fill:#FFF;" d="M323.282,355.229c0.005,18.107-7.186,35.474-19.989,48.277c-12.804,12.804-30.17,19.994-48.277,19.989c-4.294-0.005-8.579-0.405-12.8-1.195c-32.188-6.152-55.467-34.302-55.467-67.072s23.279-60.92,55.467-67.072c4.221-0.79,8.506-1.19,12.8-1.195c18.107-0.005,35.474,7.186,48.277,19.989C316.097,319.756,323.287,337.122,323.282,355.229z" />
+                                                </g>
+                                                <ellipse style="fill:#003B992F;" cx="242.217" cy="355.229" rx="55.467" ry="67.072" />
+                                                <path style="fill:#FFF;" d="M144.082,372.296c0.012,15.846-6.278,31.046-17.483,42.251s-26.405,17.494-42.251,17.483c-4.302-0.014-8.592-0.471-12.8-1.365c-27.408-6.024-46.933-30.306-46.933-58.368s19.525-52.344,46.933-58.368c4.208-0.894,8.498-1.351,12.8-1.365c15.846-0.012,31.046,6.278,42.251,17.483C137.804,341.25,144.094,356.45,144.082,372.296z" />
+                                                <g>
+                                                    <ellipse style="fill:#003B992F;" cx="412.867" cy="372.296" rx="46.933" ry="58.368" />
+                                                    <ellipse style="fill:#003B992F;" cx="71.55" cy="372.296" rx="46.933" ry="58.368" />
+                                                </g>
+                                                <path style="fill:#FFF;" d="M357.4,125c0.008,27.16-10.779,53.211-29.984,72.416C308.211,216.621,282.161,227.408,255,227.4c-4.281,0.019-8.559-0.266-12.8-0.853c-51.194-6.424-89.601-49.951-89.601-101.547S191.006,29.877,242.2,23.453c4.241-0.587,8.519-0.872,12.8-0.853c27.16-0.007,53.211,10.779,72.416,29.984C346.621,71.789,357.408,97.84,357.4,125z" />
+                                                <ellipse style="fill:#003B992F;" cx="242.2" cy="125" rx="89.6" ry="101.547" />
+                                                <circle style="fill:#FFF;" cx="255" cy="125" r="51.2" />
+                                                <g>
+                                                    <path style="fill:#003B992F;" d="M33.32,490.739c5.442-26.87,32.324-51.695,62.994-57.358c-3.777-0.708-7.605-1.112-11.447-1.207c4.104-0.037,8.193-0.494,12.203-1.364c-27.371-6.051-46.856-30.316-46.854-58.348c0.002-28.032,19.491-52.294,46.863-58.341c-4.182-0.915-8.449-1.38-12.73-1.387c-4.302,0.014-8.592,0.472-12.8,1.365c-27.408,6.024-46.933,30.306-46.933,58.368c0,28.062,19.525,52.344,46.933,58.368c3.851,0.798,7.768,1.234,11.7,1.305c-4.097,0.036-8.183,0.427-12.212,1.17c-30.805,5.547-57.856,30.464-63.317,57.429c-0.424,2.478,0.274,5.016,1.906,6.928c1.632,1.912,4.029,3,6.542,2.971h25.6c-2.514,0.03-4.911-1.059-6.543-2.971C33.593,495.755,32.895,493.217,33.32,490.739z" />
+                                                    <path style="fill:#003B992F;" d="M242.2,226.717c4.241,0.587,8.519,0.872,12.8,0.853c4.25-0.027,8.494-0.318,12.708-0.869c-51.152-6.464-89.507-49.971-89.507-101.53s38.354-95.066,89.505-101.531c-4.213-0.551-8.457-0.842-12.706-0.869c-4.281-0.019-8.559,0.266-12.8,0.853c-51.194,6.424-89.601,49.951-89.601,101.547S191.006,220.293,242.2,226.717z" />
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <path style="fill:#003B99;" d="M461.295,434.195c25.172-14.785,38.133-43.959,32.231-72.548c-5.902-28.59-29.357-50.246-58.326-53.854v-9.126c0-4.713-3.821-8.533-8.533-8.533c-4.713,0-8.533,3.82-8.533,8.533v9.126c-29.055,3.621-52.552,25.393-58.373,54.089c-5.821,28.695,7.334,57.902,32.681,72.559c-18.078,7.974-33.073,21.609-42.725,38.849c-13.065-21.706-32.928-38.493-56.508-47.758c30.63-16.964,45.909-52.499,37.148-86.4c-8.761-33.901-39.343-57.584-74.357-57.584s-65.596,23.683-74.357,57.584c-8.761,33.901,6.517,69.436,37.148,86.4c-23.58,9.265-43.443,26.052-56.508,47.758c-9.652-17.24-24.647-30.875-42.725-38.849c25.347-14.657,38.502-43.864,32.681-72.559c-5.821-28.695-29.318-50.467-58.373-54.089v-9.126c0-4.713-3.821-8.533-8.533-8.533s-8.533,3.82-8.533,8.533v9.126c-28.969,3.607-52.424,25.264-58.326,53.854c-5.902,28.59,7.059,57.764,32.231,72.548c-24.9,10.281-43.545,31.634-50.376,57.693c-0.985,4.869,0.28,9.923,3.442,13.754c3.277,4.032,8.2,6.369,13.396,6.358h477.667c5.196,0.01,10.119-2.326,13.396-6.358c3.162-3.831,4.427-8.885,3.442-13.754C504.84,465.829,486.195,444.476,461.295,434.195z M375.467,375.467c0-20.708,12.474-39.378,31.607-47.303c19.132-7.925,41.154-3.544,55.797,11.099s19.024,36.665,11.099,55.797c-7.925,19.132-26.594,31.607-47.303,31.607C398.403,426.636,375.498,403.731,375.467,375.467z M196.267,358.4c0-32.99,26.744-59.733,59.733-59.733s59.733,26.744,59.733,59.733S288.99,418.133,256,418.133C223.026,418.096,196.304,391.375,196.267,358.4z M34.133,375.467c0-20.708,12.474-39.378,31.607-47.303c19.132-7.925,41.154-3.544,55.797,11.099c14.643,14.643,19.024,36.665,11.099,55.797c-7.925,19.132-26.594,31.607-47.303,31.607C57.069,426.636,34.164,403.731,34.133,375.467z M17.054,495.304c5.612-27.471,37.242-51.571,67.687-51.571c31.317,0,62.108,24.258,67.65,51.225L17.054,495.304z M171.45,494.933C178.388,467.221,216.8,435.2,256,435.2s77.612,32.021,84.55,59.733H171.45z M494.833,494.933H359.613c5.554-26.958,36.337-51.2,67.646-51.2c30.446,0,62.075,24.1,67.754,51.113C494.966,494.896,494.902,494.927,494.833,494.933z" />
                                                 <path style="fill:#003B99;" d="M76.8,204.8c0,4.713,3.821,8.533,8.533,8.533s8.533-3.821,8.533-8.533v-25.6c0-4.713-3.821-8.533-8.533-8.533S76.8,174.487,76.8,179.2V204.8z" />
                                                 <path style="fill:#003B99;" d="M76.8,264.533c0,4.713,3.821,8.533,8.533,8.533s8.533-3.82,8.533-8.533v-25.6c0-4.713-3.821-8.533-8.533-8.533s-8.533,3.821-8.533,8.533V264.533z" />
                                                 <path style="fill:#003B99;" d="M435.2,179.2c0-4.713-3.821-8.533-8.533-8.533c-4.713,0-8.533,3.821-8.533,8.533v25.6c0,4.713,3.821,8.533,8.533,8.533c4.713,0,8.533-3.821,8.533-8.533V179.2z" />
                                                 <path style="fill:#003B99;" d="M426.667,230.4c-4.713,0-8.533,3.821-8.533,8.533v25.6c0,4.713,3.821,8.533,8.533,8.533c4.713,0,8.533-3.82,8.533-8.533v-25.6C435.2,234.221,431.38,230.4,426.667,230.4z" />
                                                 <path style="fill:#003B99;" d="M256,0c-4.713,0-8.533,3.821-8.533,8.533v8.966c-54.453,4.26-97.707,47.515-101.968,101.968H93.867c-9.422,0.009-17.057,7.645-17.067,17.067v8.533c0,4.713,3.821,8.533,8.533,8.533s8.533-3.821,8.533-8.533v-8.533h51.632c4.26,54.453,47.515,97.707,101.968,101.968V256c0,4.713,3.821,8.533,8.533,8.533s8.533-3.821,8.533-8.533v-17.499c54.453-4.26,97.707-47.515,101.968-101.968h51.632v8.533c0,4.713,3.821,8.533,8.533,8.533c4.713,0,8.533-3.821,8.533-8.533v-8.533c-0.009-9.422-7.645-17.057-17.067-17.067h-51.632c-4.26-54.453-47.515-97.707-101.968-101.968V8.533C264.533,3.821,260.713,0,256,0z M247.467,136.533v33.271c-16.74-3.451-29.82-16.531-33.271-33.271H247.467z M214.196,119.467c3.451-16.74,16.531-29.82,33.271-33.271v33.271H214.196z M264.533,136.533h33.271c-3.451,16.74-16.531,29.82-33.271,33.271V136.533z M264.533,119.467V86.196c16.74,3.451,29.82,16.531,33.271,33.271H264.533z M247.467,34.566v34.382c-26.159,3.814-46.704,24.36-50.519,50.519h-34.382C166.737,74.418,202.418,38.737,247.467,34.566z M162.566,136.533h34.382c3.814,26.159,24.36,46.704,50.519,50.519v34.382C202.418,217.263,166.737,181.582,162.566,136.533z M264.533,221.434v-34.382c26.159-3.814,46.704-24.36,50.519-50.519h34.382C345.264,181.582,309.582,217.263,264.533,221.434z M349.434,119.467h-34.382c-3.814-26.159-24.36-46.704-50.519-50.519V34.566C309.582,38.737,345.264,74.418,349.434,119.467z" />
-                                            </g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+                                            </g>
+                                        </g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
                                     </svg>
-                                    <div class="sub-title">
-                                        <h3>Visión</h3>
-                                    </div>
-                                    <div class="p-section">
-                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim earum veritatis recusandae in alias asperiores quo architecto iste quae odit. Sit libero, officia animi laudantium ullam porro rerum cum magnam! Lorem ipsum</p>
-                                    </div>
+                                    <h4>Consultoria</h4>
+                                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                </div>
+
+                                <div class="service service2 item">
+                                    <svg class="icon-services" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                        <g>
+                                            <g transform="translate(1 3)">
+                                                <path style="fill:#FFF;" d="M160.808,500.467l-144.64-0.001c-2.514,0.03-4.911-1.059-6.542-2.971s-2.33-4.45-1.906-6.928c5.461-26.965,32.512-51.883,63.317-57.429c4.193-0.782,8.449-1.182,12.715-1.195C123.432,431.944,160.808,466.248,160.808,500.467z" />
+                                                <path style="fill:#003B992F;" d="M135.208,500.467l-119.04-0.001c-2.514,0.03-4.911-1.059-6.542-2.971s-2.33-4.45-1.906-6.928c5.461-26.965,32.512-51.883,63.317-57.429C105.597,439.453,135.208,470.003,135.208,500.467z" />
+                                                <path style="fill:#FFF;" d="M349.223,500.467H160.807c0-30.123,35.413-66.901,76.971-75.349c5.677-1.125,11.45-1.697,17.237-1.707C303.485,423.411,349.223,466.248,349.223,500.467z" />
+                                                <path style="fill:#003B992F;" d="M323.282,500.467H160.808c0-30.123,37.376-66.901,81.237-75.349C285.906,433.565,323.282,470.344,323.282,500.467z" />
+                                                <path style="fill:#FFF;" d="M493.864,500.467l-144.64,0.001c0-30.464,29.611-61.014,64.171-67.328c4.25-0.786,8.563-1.186,12.885-1.195c35.84,0,69.803,27.989,76.032,58.624c0.424,2.478-0.274,5.016-1.906,6.928C498.774,499.408,496.377,500.496,493.864,500.467z" />
+                                                <path style="fill:#003B992F;" d="M468.264,500.467l-119.04,0.001c0-30.464,29.611-61.014,64.171-67.328c30.805,5.547,57.856,30.464,63.317,57.429c0.424,2.478-0.274,5.016-1.906,6.928C473.174,499.408,470.777,500.496,468.264,500.467z" />
+                                                <g>
+                                                    <path style="fill:#FFF;" d="M485.416,372.296c0.012,15.846-6.278,31.046-17.483,42.251s-26.405,17.494-42.251,17.483c-4.302-0.014-8.592-0.471-12.8-1.365c-27.408-6.024-46.933-30.306-46.933-58.368s19.525-52.344,46.933-58.368c4.208-0.894,8.498-1.351,12.8-1.365c15.846-0.012,31.046,6.278,42.251,17.483C479.138,341.25,485.427,356.45,485.416,372.296z" />
+                                                    <path style="fill:#FFF;" d="M323.282,355.229c0.005,18.107-7.186,35.474-19.989,48.277c-12.804,12.804-30.17,19.994-48.277,19.989c-4.294-0.005-8.579-0.405-12.8-1.195c-32.188-6.152-55.467-34.302-55.467-67.072s23.279-60.92,55.467-67.072c4.221-0.79,8.506-1.19,12.8-1.195c18.107-0.005,35.474,7.186,48.277,19.989C316.097,319.756,323.287,337.122,323.282,355.229z" />
+                                                </g>
+                                                <ellipse style="fill:#003B992F;" cx="242.217" cy="355.229" rx="55.467" ry="67.072" />
+                                                <path style="fill:#FFF;" d="M144.082,372.296c0.012,15.846-6.278,31.046-17.483,42.251s-26.405,17.494-42.251,17.483c-4.302-0.014-8.592-0.471-12.8-1.365c-27.408-6.024-46.933-30.306-46.933-58.368s19.525-52.344,46.933-58.368c4.208-0.894,8.498-1.351,12.8-1.365c15.846-0.012,31.046,6.278,42.251,17.483C137.804,341.25,144.094,356.45,144.082,372.296z" />
+                                                <g>
+                                                    <ellipse style="fill:#003B992F;" cx="412.867" cy="372.296" rx="46.933" ry="58.368" />
+                                                    <ellipse style="fill:#003B992F;" cx="71.55" cy="372.296" rx="46.933" ry="58.368" />
+                                                </g>
+                                                <path style="fill:#FFF;" d="M357.4,125c0.008,27.16-10.779,53.211-29.984,72.416C308.211,216.621,282.161,227.408,255,227.4c-4.281,0.019-8.559-0.266-12.8-0.853c-51.194-6.424-89.601-49.951-89.601-101.547S191.006,29.877,242.2,23.453c4.241-0.587,8.519-0.872,12.8-0.853c27.16-0.007,53.211,10.779,72.416,29.984C346.621,71.789,357.408,97.84,357.4,125z" />
+                                                <ellipse style="fill:#003B992F;" cx="242.2" cy="125" rx="89.6" ry="101.547" />
+                                                <circle style="fill:#FFF;" cx="255" cy="125" r="51.2" />
+                                                <g>
+                                                    <path style="fill:#003B992F;" d="M33.32,490.739c5.442-26.87,32.324-51.695,62.994-57.358c-3.777-0.708-7.605-1.112-11.447-1.207c4.104-0.037,8.193-0.494,12.203-1.364c-27.371-6.051-46.856-30.316-46.854-58.348c0.002-28.032,19.491-52.294,46.863-58.341c-4.182-0.915-8.449-1.38-12.73-1.387c-4.302,0.014-8.592,0.472-12.8,1.365c-27.408,6.024-46.933,30.306-46.933,58.368c0,28.062,19.525,52.344,46.933,58.368c3.851,0.798,7.768,1.234,11.7,1.305c-4.097,0.036-8.183,0.427-12.212,1.17c-30.805,5.547-57.856,30.464-63.317,57.429c-0.424,2.478,0.274,5.016,1.906,6.928c1.632,1.912,4.029,3,6.542,2.971h25.6c-2.514,0.03-4.911-1.059-6.543-2.971C33.593,495.755,32.895,493.217,33.32,490.739z" />
+                                                    <path style="fill:#003B992F;" d="M242.2,226.717c4.241,0.587,8.519,0.872,12.8,0.853c4.25-0.027,8.494-0.318,12.708-0.869c-51.152-6.464-89.507-49.971-89.507-101.53s38.354-95.066,89.505-101.531c-4.213-0.551-8.457-0.842-12.706-0.869c-4.281-0.019-8.559,0.266-12.8,0.853c-51.194,6.424-89.601,49.951-89.601,101.547S191.006,220.293,242.2,226.717z" />
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <path style="fill:#003B99;" d="M461.295,434.195c25.172-14.785,38.133-43.959,32.231-72.548c-5.902-28.59-29.357-50.246-58.326-53.854v-9.126c0-4.713-3.821-8.533-8.533-8.533c-4.713,0-8.533,3.82-8.533,8.533v9.126c-29.055,3.621-52.552,25.393-58.373,54.089c-5.821,28.695,7.334,57.902,32.681,72.559c-18.078,7.974-33.073,21.609-42.725,38.849c-13.065-21.706-32.928-38.493-56.508-47.758c30.63-16.964,45.909-52.499,37.148-86.4c-8.761-33.901-39.343-57.584-74.357-57.584s-65.596,23.683-74.357,57.584c-8.761,33.901,6.517,69.436,37.148,86.4c-23.58,9.265-43.443,26.052-56.508,47.758c-9.652-17.24-24.647-30.875-42.725-38.849c25.347-14.657,38.502-43.864,32.681-72.559c-5.821-28.695-29.318-50.467-58.373-54.089v-9.126c0-4.713-3.821-8.533-8.533-8.533s-8.533,3.82-8.533,8.533v9.126c-28.969,3.607-52.424,25.264-58.326,53.854c-5.902,28.59,7.059,57.764,32.231,72.548c-24.9,10.281-43.545,31.634-50.376,57.693c-0.985,4.869,0.28,9.923,3.442,13.754c3.277,4.032,8.2,6.369,13.396,6.358h477.667c5.196,0.01,10.119-2.326,13.396-6.358c3.162-3.831,4.427-8.885,3.442-13.754C504.84,465.829,486.195,444.476,461.295,434.195z M375.467,375.467c0-20.708,12.474-39.378,31.607-47.303c19.132-7.925,41.154-3.544,55.797,11.099s19.024,36.665,11.099,55.797c-7.925,19.132-26.594,31.607-47.303,31.607C398.403,426.636,375.498,403.731,375.467,375.467z M196.267,358.4c0-32.99,26.744-59.733,59.733-59.733s59.733,26.744,59.733,59.733S288.99,418.133,256,418.133C223.026,418.096,196.304,391.375,196.267,358.4z M34.133,375.467c0-20.708,12.474-39.378,31.607-47.303c19.132-7.925,41.154-3.544,55.797,11.099c14.643,14.643,19.024,36.665,11.099,55.797c-7.925,19.132-26.594,31.607-47.303,31.607C57.069,426.636,34.164,403.731,34.133,375.467z M17.054,495.304c5.612-27.471,37.242-51.571,67.687-51.571c31.317,0,62.108,24.258,67.65,51.225L17.054,495.304z M171.45,494.933C178.388,467.221,216.8,435.2,256,435.2s77.612,32.021,84.55,59.733H171.45z M494.833,494.933H359.613c5.554-26.958,36.337-51.2,67.646-51.2c30.446,0,62.075,24.1,67.754,51.113C494.966,494.896,494.902,494.927,494.833,494.933z" />
+                                                <path style="fill:#003B99;" d="M76.8,204.8c0,4.713,3.821,8.533,8.533,8.533s8.533-3.821,8.533-8.533v-25.6c0-4.713-3.821-8.533-8.533-8.533S76.8,174.487,76.8,179.2V204.8z" />
+                                                <path style="fill:#003B99;" d="M76.8,264.533c0,4.713,3.821,8.533,8.533,8.533s8.533-3.82,8.533-8.533v-25.6c0-4.713-3.821-8.533-8.533-8.533s-8.533,3.821-8.533,8.533V264.533z" />
+                                                <path style="fill:#003B99;" d="M435.2,179.2c0-4.713-3.821-8.533-8.533-8.533c-4.713,0-8.533,3.821-8.533,8.533v25.6c0,4.713,3.821,8.533,8.533,8.533c4.713,0,8.533-3.821,8.533-8.533V179.2z" />
+                                                <path style="fill:#003B99;" d="M426.667,230.4c-4.713,0-8.533,3.821-8.533,8.533v25.6c0,4.713,3.821,8.533,8.533,8.533c4.713,0,8.533-3.82,8.533-8.533v-25.6C435.2,234.221,431.38,230.4,426.667,230.4z" />
+                                                <path style="fill:#003B99;" d="M256,0c-4.713,0-8.533,3.821-8.533,8.533v8.966c-54.453,4.26-97.707,47.515-101.968,101.968H93.867c-9.422,0.009-17.057,7.645-17.067,17.067v8.533c0,4.713,3.821,8.533,8.533,8.533s8.533-3.821,8.533-8.533v-8.533h51.632c4.26,54.453,47.515,97.707,101.968,101.968V256c0,4.713,3.821,8.533,8.533,8.533s8.533-3.821,8.533-8.533v-17.499c54.453-4.26,97.707-47.515,101.968-101.968h51.632v8.533c0,4.713,3.821,8.533,8.533,8.533c4.713,0,8.533-3.821,8.533-8.533v-8.533c-0.009-9.422-7.645-17.057-17.067-17.067h-51.632c-4.26-54.453-47.515-97.707-101.968-101.968V8.533C264.533,3.821,260.713,0,256,0z M247.467,136.533v33.271c-16.74-3.451-29.82-16.531-33.271-33.271H247.467z M214.196,119.467c3.451-16.74,16.531-29.82,33.271-33.271v33.271H214.196z M264.533,136.533h33.271c-3.451,16.74-16.531,29.82-33.271,33.271V136.533z M264.533,119.467V86.196c16.74,3.451,29.82,16.531,33.271,33.271H264.533z M247.467,34.566v34.382c-26.159,3.814-46.704,24.36-50.519,50.519h-34.382C166.737,74.418,202.418,38.737,247.467,34.566z M162.566,136.533h34.382c3.814,26.159,24.36,46.704,50.519,50.519v34.382C202.418,217.263,166.737,181.582,162.566,136.533z M264.533,221.434v-34.382c26.159-3.814,46.704-24.36,50.519-50.519h34.382C345.264,181.582,309.582,217.263,264.533,221.434z M349.434,119.467h-34.382c-3.814-26.159-24.36-46.704-50.519-50.519V34.566C309.582,38.737,345.264,74.418,349.434,119.467z" />
+                                            </g>
+                                        </g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                    </svg>
+                                    <h4>Nuevas tecnologías</h4>
+                                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                </div>
+
+                                <div class="service service3 item">
+                                    <svg class="icon-services" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                        <g>
+                                            <g transform="translate(1 3)">
+                                                <path style="fill:#FFF;" d="M160.808,500.467l-144.64-0.001c-2.514,0.03-4.911-1.059-6.542-2.971s-2.33-4.45-1.906-6.928c5.461-26.965,32.512-51.883,63.317-57.429c4.193-0.782,8.449-1.182,12.715-1.195C123.432,431.944,160.808,466.248,160.808,500.467z" />
+                                                <path style="fill:#003B992F;" d="M135.208,500.467l-119.04-0.001c-2.514,0.03-4.911-1.059-6.542-2.971s-2.33-4.45-1.906-6.928c5.461-26.965,32.512-51.883,63.317-57.429C105.597,439.453,135.208,470.003,135.208,500.467z" />
+                                                <path style="fill:#FFF;" d="M349.223,500.467H160.807c0-30.123,35.413-66.901,76.971-75.349c5.677-1.125,11.45-1.697,17.237-1.707C303.485,423.411,349.223,466.248,349.223,500.467z" />
+                                                <path style="fill:#003B992F;" d="M323.282,500.467H160.808c0-30.123,37.376-66.901,81.237-75.349C285.906,433.565,323.282,470.344,323.282,500.467z" />
+                                                <path style="fill:#FFF;" d="M493.864,500.467l-144.64,0.001c0-30.464,29.611-61.014,64.171-67.328c4.25-0.786,8.563-1.186,12.885-1.195c35.84,0,69.803,27.989,76.032,58.624c0.424,2.478-0.274,5.016-1.906,6.928C498.774,499.408,496.377,500.496,493.864,500.467z" />
+                                                <path style="fill:#003B992F;" d="M468.264,500.467l-119.04,0.001c0-30.464,29.611-61.014,64.171-67.328c30.805,5.547,57.856,30.464,63.317,57.429c0.424,2.478-0.274,5.016-1.906,6.928C473.174,499.408,470.777,500.496,468.264,500.467z" />
+                                                <g>
+                                                    <path style="fill:#FFF;" d="M485.416,372.296c0.012,15.846-6.278,31.046-17.483,42.251s-26.405,17.494-42.251,17.483c-4.302-0.014-8.592-0.471-12.8-1.365c-27.408-6.024-46.933-30.306-46.933-58.368s19.525-52.344,46.933-58.368c4.208-0.894,8.498-1.351,12.8-1.365c15.846-0.012,31.046,6.278,42.251,17.483C479.138,341.25,485.427,356.45,485.416,372.296z" />
+                                                    <path style="fill:#FFF;" d="M323.282,355.229c0.005,18.107-7.186,35.474-19.989,48.277c-12.804,12.804-30.17,19.994-48.277,19.989c-4.294-0.005-8.579-0.405-12.8-1.195c-32.188-6.152-55.467-34.302-55.467-67.072s23.279-60.92,55.467-67.072c4.221-0.79,8.506-1.19,12.8-1.195c18.107-0.005,35.474,7.186,48.277,19.989C316.097,319.756,323.287,337.122,323.282,355.229z" />
+                                                </g>
+                                                <ellipse style="fill:#003B992F;" cx="242.217" cy="355.229" rx="55.467" ry="67.072" />
+                                                <path style="fill:#FFF;" d="M144.082,372.296c0.012,15.846-6.278,31.046-17.483,42.251s-26.405,17.494-42.251,17.483c-4.302-0.014-8.592-0.471-12.8-1.365c-27.408-6.024-46.933-30.306-46.933-58.368s19.525-52.344,46.933-58.368c4.208-0.894,8.498-1.351,12.8-1.365c15.846-0.012,31.046,6.278,42.251,17.483C137.804,341.25,144.094,356.45,144.082,372.296z" />
+                                                <g>
+                                                    <ellipse style="fill:#003B992F;" cx="412.867" cy="372.296" rx="46.933" ry="58.368" />
+                                                    <ellipse style="fill:#003B992F;" cx="71.55" cy="372.296" rx="46.933" ry="58.368" />
+                                                </g>
+                                                <path style="fill:#FFF;" d="M357.4,125c0.008,27.16-10.779,53.211-29.984,72.416C308.211,216.621,282.161,227.408,255,227.4c-4.281,0.019-8.559-0.266-12.8-0.853c-51.194-6.424-89.601-49.951-89.601-101.547S191.006,29.877,242.2,23.453c4.241-0.587,8.519-0.872,12.8-0.853c27.16-0.007,53.211,10.779,72.416,29.984C346.621,71.789,357.408,97.84,357.4,125z" />
+                                                <ellipse style="fill:#003B992F;" cx="242.2" cy="125" rx="89.6" ry="101.547" />
+                                                <circle style="fill:#FFF;" cx="255" cy="125" r="51.2" />
+                                                <g>
+                                                    <path style="fill:#003B992F;" d="M33.32,490.739c5.442-26.87,32.324-51.695,62.994-57.358c-3.777-0.708-7.605-1.112-11.447-1.207c4.104-0.037,8.193-0.494,12.203-1.364c-27.371-6.051-46.856-30.316-46.854-58.348c0.002-28.032,19.491-52.294,46.863-58.341c-4.182-0.915-8.449-1.38-12.73-1.387c-4.302,0.014-8.592,0.472-12.8,1.365c-27.408,6.024-46.933,30.306-46.933,58.368c0,28.062,19.525,52.344,46.933,58.368c3.851,0.798,7.768,1.234,11.7,1.305c-4.097,0.036-8.183,0.427-12.212,1.17c-30.805,5.547-57.856,30.464-63.317,57.429c-0.424,2.478,0.274,5.016,1.906,6.928c1.632,1.912,4.029,3,6.542,2.971h25.6c-2.514,0.03-4.911-1.059-6.543-2.971C33.593,495.755,32.895,493.217,33.32,490.739z" />
+                                                    <path style="fill:#003B992F;" d="M242.2,226.717c4.241,0.587,8.519,0.872,12.8,0.853c4.25-0.027,8.494-0.318,12.708-0.869c-51.152-6.464-89.507-49.971-89.507-101.53s38.354-95.066,89.505-101.531c-4.213-0.551-8.457-0.842-12.706-0.869c-4.281-0.019-8.559,0.266-12.8,0.853c-51.194,6.424-89.601,49.951-89.601,101.547S191.006,220.293,242.2,226.717z" />
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <path style="fill:#003B99;" d="M461.295,434.195c25.172-14.785,38.133-43.959,32.231-72.548c-5.902-28.59-29.357-50.246-58.326-53.854v-9.126c0-4.713-3.821-8.533-8.533-8.533c-4.713,0-8.533,3.82-8.533,8.533v9.126c-29.055,3.621-52.552,25.393-58.373,54.089c-5.821,28.695,7.334,57.902,32.681,72.559c-18.078,7.974-33.073,21.609-42.725,38.849c-13.065-21.706-32.928-38.493-56.508-47.758c30.63-16.964,45.909-52.499,37.148-86.4c-8.761-33.901-39.343-57.584-74.357-57.584s-65.596,23.683-74.357,57.584c-8.761,33.901,6.517,69.436,37.148,86.4c-23.58,9.265-43.443,26.052-56.508,47.758c-9.652-17.24-24.647-30.875-42.725-38.849c25.347-14.657,38.502-43.864,32.681-72.559c-5.821-28.695-29.318-50.467-58.373-54.089v-9.126c0-4.713-3.821-8.533-8.533-8.533s-8.533,3.82-8.533,8.533v9.126c-28.969,3.607-52.424,25.264-58.326,53.854c-5.902,28.59,7.059,57.764,32.231,72.548c-24.9,10.281-43.545,31.634-50.376,57.693c-0.985,4.869,0.28,9.923,3.442,13.754c3.277,4.032,8.2,6.369,13.396,6.358h477.667c5.196,0.01,10.119-2.326,13.396-6.358c3.162-3.831,4.427-8.885,3.442-13.754C504.84,465.829,486.195,444.476,461.295,434.195z M375.467,375.467c0-20.708,12.474-39.378,31.607-47.303c19.132-7.925,41.154-3.544,55.797,11.099s19.024,36.665,11.099,55.797c-7.925,19.132-26.594,31.607-47.303,31.607C398.403,426.636,375.498,403.731,375.467,375.467z M196.267,358.4c0-32.99,26.744-59.733,59.733-59.733s59.733,26.744,59.733,59.733S288.99,418.133,256,418.133C223.026,418.096,196.304,391.375,196.267,358.4z M34.133,375.467c0-20.708,12.474-39.378,31.607-47.303c19.132-7.925,41.154-3.544,55.797,11.099c14.643,14.643,19.024,36.665,11.099,55.797c-7.925,19.132-26.594,31.607-47.303,31.607C57.069,426.636,34.164,403.731,34.133,375.467z M17.054,495.304c5.612-27.471,37.242-51.571,67.687-51.571c31.317,0,62.108,24.258,67.65,51.225L17.054,495.304z M171.45,494.933C178.388,467.221,216.8,435.2,256,435.2s77.612,32.021,84.55,59.733H171.45z M494.833,494.933H359.613c5.554-26.958,36.337-51.2,67.646-51.2c30.446,0,62.075,24.1,67.754,51.113C494.966,494.896,494.902,494.927,494.833,494.933z" />
+                                                <path style="fill:#003B99;" d="M76.8,204.8c0,4.713,3.821,8.533,8.533,8.533s8.533-3.821,8.533-8.533v-25.6c0-4.713-3.821-8.533-8.533-8.533S76.8,174.487,76.8,179.2V204.8z" />
+                                                <path style="fill:#003B99;" d="M76.8,264.533c0,4.713,3.821,8.533,8.533,8.533s8.533-3.82,8.533-8.533v-25.6c0-4.713-3.821-8.533-8.533-8.533s-8.533,3.821-8.533,8.533V264.533z" />
+                                                <path style="fill:#003B99;" d="M435.2,179.2c0-4.713-3.821-8.533-8.533-8.533c-4.713,0-8.533,3.821-8.533,8.533v25.6c0,4.713,3.821,8.533,8.533,8.533c4.713,0,8.533-3.821,8.533-8.533V179.2z" />
+                                                <path style="fill:#003B99;" d="M426.667,230.4c-4.713,0-8.533,3.821-8.533,8.533v25.6c0,4.713,3.821,8.533,8.533,8.533c4.713,0,8.533-3.82,8.533-8.533v-25.6C435.2,234.221,431.38,230.4,426.667,230.4z" />
+                                                <path style="fill:#003B99;" d="M256,0c-4.713,0-8.533,3.821-8.533,8.533v8.966c-54.453,4.26-97.707,47.515-101.968,101.968H93.867c-9.422,0.009-17.057,7.645-17.067,17.067v8.533c0,4.713,3.821,8.533,8.533,8.533s8.533-3.821,8.533-8.533v-8.533h51.632c4.26,54.453,47.515,97.707,101.968,101.968V256c0,4.713,3.821,8.533,8.533,8.533s8.533-3.821,8.533-8.533v-17.499c54.453-4.26,97.707-47.515,101.968-101.968h51.632v8.533c0,4.713,3.821,8.533,8.533,8.533c4.713,0,8.533-3.821,8.533-8.533v-8.533c-0.009-9.422-7.645-17.057-17.067-17.067h-51.632c-4.26-54.453-47.515-97.707-101.968-101.968V8.533C264.533,3.821,260.713,0,256,0z M247.467,136.533v33.271c-16.74-3.451-29.82-16.531-33.271-33.271H247.467z M214.196,119.467c3.451-16.74,16.531-29.82,33.271-33.271v33.271H214.196z M264.533,136.533h33.271c-3.451,16.74-16.531,29.82-33.271,33.271V136.533z M264.533,119.467V86.196c16.74,3.451,29.82,16.531,33.271,33.271H264.533z M247.467,34.566v34.382c-26.159,3.814-46.704,24.36-50.519,50.519h-34.382C166.737,74.418,202.418,38.737,247.467,34.566z M162.566,136.533h34.382c3.814,26.159,24.36,46.704,50.519,50.519v34.382C202.418,217.263,166.737,181.582,162.566,136.533z M264.533,221.434v-34.382c26.159-3.814,46.704-24.36,50.519-50.519h34.382C345.264,181.582,309.582,217.263,264.533,221.434z M349.434,119.467h-34.382c-3.814-26.159-24.36-46.704-50.519-50.519V34.566C309.582,38.737,345.264,74.418,349.434,119.467z" />
+                                            </g>
+                                        </g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                    </svg>
+                                    <h4>Desarrollo web</h4>
+                                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                 </div>
                             </div>
 
-                            <div class="separator middle-separator"></div>
 
-                            <div class="section-double-full" id="boss-section">
-                                <div class="section-double-full-inner">
-                                    <div class="img-container boss-img"></div>
-                                </div>
-                                <div class="section-double-full-inner">
-                                    <div class="section-double-full-contain">
-                                        <div class="pre-title">
-                                            <span>02.</span>
-                                            <hr>
-                                            <span>Lider</span>
-                                        </div>
-                                        <div class="title">
-                                            <h2>"El mundo requiere más que solo tecnología... Necesita personas comprometidas en proveer soluciones tecnológicas funcionales e innovadoras <br>Somos ese equipo... Somos ATS GROUP."</h2>
-                                        </div>
-                                        <div class="subtitle">
-                                            <h4>Rodrigo Artiga -<span> CEO ATS Group</span></h4>
-                                        </div>
-                                    </div>
+
+                            <div class="services-grid">
+                                <div class="service service1 item">
+                                    <svg class="icon-services" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                        <g>
+                                            <g transform="translate(1 3)">
+                                                <path style="fill:#FFF;" d="M160.808,500.467l-144.64-0.001c-2.514,0.03-4.911-1.059-6.542-2.971s-2.33-4.45-1.906-6.928c5.461-26.965,32.512-51.883,63.317-57.429c4.193-0.782,8.449-1.182,12.715-1.195C123.432,431.944,160.808,466.248,160.808,500.467z" />
+                                                <path style="fill:#003B992F;" d="M135.208,500.467l-119.04-0.001c-2.514,0.03-4.911-1.059-6.542-2.971s-2.33-4.45-1.906-6.928c5.461-26.965,32.512-51.883,63.317-57.429C105.597,439.453,135.208,470.003,135.208,500.467z" />
+                                                <path style="fill:#FFF;" d="M349.223,500.467H160.807c0-30.123,35.413-66.901,76.971-75.349c5.677-1.125,11.45-1.697,17.237-1.707C303.485,423.411,349.223,466.248,349.223,500.467z" />
+                                                <path style="fill:#003B992F;" d="M323.282,500.467H160.808c0-30.123,37.376-66.901,81.237-75.349C285.906,433.565,323.282,470.344,323.282,500.467z" />
+                                                <path style="fill:#FFF;" d="M493.864,500.467l-144.64,0.001c0-30.464,29.611-61.014,64.171-67.328c4.25-0.786,8.563-1.186,12.885-1.195c35.84,0,69.803,27.989,76.032,58.624c0.424,2.478-0.274,5.016-1.906,6.928C498.774,499.408,496.377,500.496,493.864,500.467z" />
+                                                <path style="fill:#003B992F;" d="M468.264,500.467l-119.04,0.001c0-30.464,29.611-61.014,64.171-67.328c30.805,5.547,57.856,30.464,63.317,57.429c0.424,2.478-0.274,5.016-1.906,6.928C473.174,499.408,470.777,500.496,468.264,500.467z" />
+                                                <g>
+                                                    <path style="fill:#FFF;" d="M485.416,372.296c0.012,15.846-6.278,31.046-17.483,42.251s-26.405,17.494-42.251,17.483c-4.302-0.014-8.592-0.471-12.8-1.365c-27.408-6.024-46.933-30.306-46.933-58.368s19.525-52.344,46.933-58.368c4.208-0.894,8.498-1.351,12.8-1.365c15.846-0.012,31.046,6.278,42.251,17.483C479.138,341.25,485.427,356.45,485.416,372.296z" />
+                                                    <path style="fill:#FFF;" d="M323.282,355.229c0.005,18.107-7.186,35.474-19.989,48.277c-12.804,12.804-30.17,19.994-48.277,19.989c-4.294-0.005-8.579-0.405-12.8-1.195c-32.188-6.152-55.467-34.302-55.467-67.072s23.279-60.92,55.467-67.072c4.221-0.79,8.506-1.19,12.8-1.195c18.107-0.005,35.474,7.186,48.277,19.989C316.097,319.756,323.287,337.122,323.282,355.229z" />
+                                                </g>
+                                                <ellipse style="fill:#003B992F;" cx="242.217" cy="355.229" rx="55.467" ry="67.072" />
+                                                <path style="fill:#FFF;" d="M144.082,372.296c0.012,15.846-6.278,31.046-17.483,42.251s-26.405,17.494-42.251,17.483c-4.302-0.014-8.592-0.471-12.8-1.365c-27.408-6.024-46.933-30.306-46.933-58.368s19.525-52.344,46.933-58.368c4.208-0.894,8.498-1.351,12.8-1.365c15.846-0.012,31.046,6.278,42.251,17.483C137.804,341.25,144.094,356.45,144.082,372.296z" />
+                                                <g>
+                                                    <ellipse style="fill:#003B992F;" cx="412.867" cy="372.296" rx="46.933" ry="58.368" />
+                                                    <ellipse style="fill:#003B992F;" cx="71.55" cy="372.296" rx="46.933" ry="58.368" />
+                                                </g>
+                                                <path style="fill:#FFF;" d="M357.4,125c0.008,27.16-10.779,53.211-29.984,72.416C308.211,216.621,282.161,227.408,255,227.4c-4.281,0.019-8.559-0.266-12.8-0.853c-51.194-6.424-89.601-49.951-89.601-101.547S191.006,29.877,242.2,23.453c4.241-0.587,8.519-0.872,12.8-0.853c27.16-0.007,53.211,10.779,72.416,29.984C346.621,71.789,357.408,97.84,357.4,125z" />
+                                                <ellipse style="fill:#003B992F;" cx="242.2" cy="125" rx="89.6" ry="101.547" />
+                                                <circle style="fill:#FFF;" cx="255" cy="125" r="51.2" />
+                                                <g>
+                                                    <path style="fill:#003B992F;" d="M33.32,490.739c5.442-26.87,32.324-51.695,62.994-57.358c-3.777-0.708-7.605-1.112-11.447-1.207c4.104-0.037,8.193-0.494,12.203-1.364c-27.371-6.051-46.856-30.316-46.854-58.348c0.002-28.032,19.491-52.294,46.863-58.341c-4.182-0.915-8.449-1.38-12.73-1.387c-4.302,0.014-8.592,0.472-12.8,1.365c-27.408,6.024-46.933,30.306-46.933,58.368c0,28.062,19.525,52.344,46.933,58.368c3.851,0.798,7.768,1.234,11.7,1.305c-4.097,0.036-8.183,0.427-12.212,1.17c-30.805,5.547-57.856,30.464-63.317,57.429c-0.424,2.478,0.274,5.016,1.906,6.928c1.632,1.912,4.029,3,6.542,2.971h25.6c-2.514,0.03-4.911-1.059-6.543-2.971C33.593,495.755,32.895,493.217,33.32,490.739z" />
+                                                    <path style="fill:#003B992F;" d="M242.2,226.717c4.241,0.587,8.519,0.872,12.8,0.853c4.25-0.027,8.494-0.318,12.708-0.869c-51.152-6.464-89.507-49.971-89.507-101.53s38.354-95.066,89.505-101.531c-4.213-0.551-8.457-0.842-12.706-0.869c-4.281-0.019-8.559,0.266-12.8,0.853c-51.194,6.424-89.601,49.951-89.601,101.547S191.006,220.293,242.2,226.717z" />
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <path style="fill:#003B99;" d="M461.295,434.195c25.172-14.785,38.133-43.959,32.231-72.548c-5.902-28.59-29.357-50.246-58.326-53.854v-9.126c0-4.713-3.821-8.533-8.533-8.533c-4.713,0-8.533,3.82-8.533,8.533v9.126c-29.055,3.621-52.552,25.393-58.373,54.089c-5.821,28.695,7.334,57.902,32.681,72.559c-18.078,7.974-33.073,21.609-42.725,38.849c-13.065-21.706-32.928-38.493-56.508-47.758c30.63-16.964,45.909-52.499,37.148-86.4c-8.761-33.901-39.343-57.584-74.357-57.584s-65.596,23.683-74.357,57.584c-8.761,33.901,6.517,69.436,37.148,86.4c-23.58,9.265-43.443,26.052-56.508,47.758c-9.652-17.24-24.647-30.875-42.725-38.849c25.347-14.657,38.502-43.864,32.681-72.559c-5.821-28.695-29.318-50.467-58.373-54.089v-9.126c0-4.713-3.821-8.533-8.533-8.533s-8.533,3.82-8.533,8.533v9.126c-28.969,3.607-52.424,25.264-58.326,53.854c-5.902,28.59,7.059,57.764,32.231,72.548c-24.9,10.281-43.545,31.634-50.376,57.693c-0.985,4.869,0.28,9.923,3.442,13.754c3.277,4.032,8.2,6.369,13.396,6.358h477.667c5.196,0.01,10.119-2.326,13.396-6.358c3.162-3.831,4.427-8.885,3.442-13.754C504.84,465.829,486.195,444.476,461.295,434.195z M375.467,375.467c0-20.708,12.474-39.378,31.607-47.303c19.132-7.925,41.154-3.544,55.797,11.099s19.024,36.665,11.099,55.797c-7.925,19.132-26.594,31.607-47.303,31.607C398.403,426.636,375.498,403.731,375.467,375.467z M196.267,358.4c0-32.99,26.744-59.733,59.733-59.733s59.733,26.744,59.733,59.733S288.99,418.133,256,418.133C223.026,418.096,196.304,391.375,196.267,358.4z M34.133,375.467c0-20.708,12.474-39.378,31.607-47.303c19.132-7.925,41.154-3.544,55.797,11.099c14.643,14.643,19.024,36.665,11.099,55.797c-7.925,19.132-26.594,31.607-47.303,31.607C57.069,426.636,34.164,403.731,34.133,375.467z M17.054,495.304c5.612-27.471,37.242-51.571,67.687-51.571c31.317,0,62.108,24.258,67.65,51.225L17.054,495.304z M171.45,494.933C178.388,467.221,216.8,435.2,256,435.2s77.612,32.021,84.55,59.733H171.45z M494.833,494.933H359.613c5.554-26.958,36.337-51.2,67.646-51.2c30.446,0,62.075,24.1,67.754,51.113C494.966,494.896,494.902,494.927,494.833,494.933z" />
+                                                <path style="fill:#003B99;" d="M76.8,204.8c0,4.713,3.821,8.533,8.533,8.533s8.533-3.821,8.533-8.533v-25.6c0-4.713-3.821-8.533-8.533-8.533S76.8,174.487,76.8,179.2V204.8z" />
+                                                <path style="fill:#003B99;" d="M76.8,264.533c0,4.713,3.821,8.533,8.533,8.533s8.533-3.82,8.533-8.533v-25.6c0-4.713-3.821-8.533-8.533-8.533s-8.533,3.821-8.533,8.533V264.533z" />
+                                                <path style="fill:#003B99;" d="M435.2,179.2c0-4.713-3.821-8.533-8.533-8.533c-4.713,0-8.533,3.821-8.533,8.533v25.6c0,4.713,3.821,8.533,8.533,8.533c4.713,0,8.533-3.821,8.533-8.533V179.2z" />
+                                                <path style="fill:#003B99;" d="M426.667,230.4c-4.713,0-8.533,3.821-8.533,8.533v25.6c0,4.713,3.821,8.533,8.533,8.533c4.713,0,8.533-3.82,8.533-8.533v-25.6C435.2,234.221,431.38,230.4,426.667,230.4z" />
+                                                <path style="fill:#003B99;" d="M256,0c-4.713,0-8.533,3.821-8.533,8.533v8.966c-54.453,4.26-97.707,47.515-101.968,101.968H93.867c-9.422,0.009-17.057,7.645-17.067,17.067v8.533c0,4.713,3.821,8.533,8.533,8.533s8.533-3.821,8.533-8.533v-8.533h51.632c4.26,54.453,47.515,97.707,101.968,101.968V256c0,4.713,3.821,8.533,8.533,8.533s8.533-3.821,8.533-8.533v-17.499c54.453-4.26,97.707-47.515,101.968-101.968h51.632v8.533c0,4.713,3.821,8.533,8.533,8.533c4.713,0,8.533-3.821,8.533-8.533v-8.533c-0.009-9.422-7.645-17.057-17.067-17.067h-51.632c-4.26-54.453-47.515-97.707-101.968-101.968V8.533C264.533,3.821,260.713,0,256,0z M247.467,136.533v33.271c-16.74-3.451-29.82-16.531-33.271-33.271H247.467z M214.196,119.467c3.451-16.74,16.531-29.82,33.271-33.271v33.271H214.196z M264.533,136.533h33.271c-3.451,16.74-16.531,29.82-33.271,33.271V136.533z M264.533,119.467V86.196c16.74,3.451,29.82,16.531,33.271,33.271H264.533z M247.467,34.566v34.382c-26.159,3.814-46.704,24.36-50.519,50.519h-34.382C166.737,74.418,202.418,38.737,247.467,34.566z M162.566,136.533h34.382c3.814,26.159,24.36,46.704,50.519,50.519v34.382C202.418,217.263,166.737,181.582,162.566,136.533z M264.533,221.434v-34.382c26.159-3.814,46.704-24.36,50.519-50.519h34.382C345.264,181.582,309.582,217.263,264.533,221.434z M349.434,119.467h-34.382c-3.814-26.159-24.36-46.704-50.519-50.519V34.566C309.582,38.737,345.264,74.418,349.434,119.467z" />
+                                            </g>
+                                        </g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                    </svg>
+                                    <h4>Outsourcing de IT</h4>
+                                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                 </div>
 
-                            </div>
-
-                            <div class="section-double-full" id="atsfordevs-section">
-                                <div class="section-double-full-inner">
-                                    <div class="section-double-full-contain">
-                                        <div class="pre-title">
-                                            <span>03.</span>
-                                            <hr>
-                                            <span>ATS for Devs</span>
-                                        </div>
-                                        <div class="titulo">
-                                            <h1 class="izquierda">Apoyamos a la comunidad de Desarrolladores</h1>
-                                        </div>
-                                        <div class="p-section">
-                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim earum veritatis recusandae in alias asperiores quo architecto iste quae odit. Sit libero, officia animi laudantium ullam porro rerum cum magnam! Lorem ipsum dolor
-                                                sit amet consectetur adipisicing elit. Excepturi quidem pariatur optio sapiente nihil voluptatum reiciendis assumenda earum laudantium ut, voluptates, perferendis porro. In quibusdam eos veritatis ipsa, ab doloribus.
-                                            </p>
-                                        </div>
-                                        <a href="#" class="button button-primary">Conoce más <i class="ri-arrow-right-line"></i></a>
-                                    </div>
+                                <div class="service service2 item">
+                                    <svg class="icon-services" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                        <g>
+                                            <g transform="translate(1 3)">
+                                                <path style="fill:#FFF;" d="M160.808,500.467l-144.64-0.001c-2.514,0.03-4.911-1.059-6.542-2.971s-2.33-4.45-1.906-6.928c5.461-26.965,32.512-51.883,63.317-57.429c4.193-0.782,8.449-1.182,12.715-1.195C123.432,431.944,160.808,466.248,160.808,500.467z" />
+                                                <path style="fill:#003B992F;" d="M135.208,500.467l-119.04-0.001c-2.514,0.03-4.911-1.059-6.542-2.971s-2.33-4.45-1.906-6.928c5.461-26.965,32.512-51.883,63.317-57.429C105.597,439.453,135.208,470.003,135.208,500.467z" />
+                                                <path style="fill:#FFF;" d="M349.223,500.467H160.807c0-30.123,35.413-66.901,76.971-75.349c5.677-1.125,11.45-1.697,17.237-1.707C303.485,423.411,349.223,466.248,349.223,500.467z" />
+                                                <path style="fill:#003B992F;" d="M323.282,500.467H160.808c0-30.123,37.376-66.901,81.237-75.349C285.906,433.565,323.282,470.344,323.282,500.467z" />
+                                                <path style="fill:#FFF;" d="M493.864,500.467l-144.64,0.001c0-30.464,29.611-61.014,64.171-67.328c4.25-0.786,8.563-1.186,12.885-1.195c35.84,0,69.803,27.989,76.032,58.624c0.424,2.478-0.274,5.016-1.906,6.928C498.774,499.408,496.377,500.496,493.864,500.467z" />
+                                                <path style="fill:#003B992F;" d="M468.264,500.467l-119.04,0.001c0-30.464,29.611-61.014,64.171-67.328c30.805,5.547,57.856,30.464,63.317,57.429c0.424,2.478-0.274,5.016-1.906,6.928C473.174,499.408,470.777,500.496,468.264,500.467z" />
+                                                <g>
+                                                    <path style="fill:#FFF;" d="M485.416,372.296c0.012,15.846-6.278,31.046-17.483,42.251s-26.405,17.494-42.251,17.483c-4.302-0.014-8.592-0.471-12.8-1.365c-27.408-6.024-46.933-30.306-46.933-58.368s19.525-52.344,46.933-58.368c4.208-0.894,8.498-1.351,12.8-1.365c15.846-0.012,31.046,6.278,42.251,17.483C479.138,341.25,485.427,356.45,485.416,372.296z" />
+                                                    <path style="fill:#FFF;" d="M323.282,355.229c0.005,18.107-7.186,35.474-19.989,48.277c-12.804,12.804-30.17,19.994-48.277,19.989c-4.294-0.005-8.579-0.405-12.8-1.195c-32.188-6.152-55.467-34.302-55.467-67.072s23.279-60.92,55.467-67.072c4.221-0.79,8.506-1.19,12.8-1.195c18.107-0.005,35.474,7.186,48.277,19.989C316.097,319.756,323.287,337.122,323.282,355.229z" />
+                                                </g>
+                                                <ellipse style="fill:#003B992F;" cx="242.217" cy="355.229" rx="55.467" ry="67.072" />
+                                                <path style="fill:#FFF;" d="M144.082,372.296c0.012,15.846-6.278,31.046-17.483,42.251s-26.405,17.494-42.251,17.483c-4.302-0.014-8.592-0.471-12.8-1.365c-27.408-6.024-46.933-30.306-46.933-58.368s19.525-52.344,46.933-58.368c4.208-0.894,8.498-1.351,12.8-1.365c15.846-0.012,31.046,6.278,42.251,17.483C137.804,341.25,144.094,356.45,144.082,372.296z" />
+                                                <g>
+                                                    <ellipse style="fill:#003B992F;" cx="412.867" cy="372.296" rx="46.933" ry="58.368" />
+                                                    <ellipse style="fill:#003B992F;" cx="71.55" cy="372.296" rx="46.933" ry="58.368" />
+                                                </g>
+                                                <path style="fill:#FFF;" d="M357.4,125c0.008,27.16-10.779,53.211-29.984,72.416C308.211,216.621,282.161,227.408,255,227.4c-4.281,0.019-8.559-0.266-12.8-0.853c-51.194-6.424-89.601-49.951-89.601-101.547S191.006,29.877,242.2,23.453c4.241-0.587,8.519-0.872,12.8-0.853c27.16-0.007,53.211,10.779,72.416,29.984C346.621,71.789,357.408,97.84,357.4,125z" />
+                                                <ellipse style="fill:#003B992F;" cx="242.2" cy="125" rx="89.6" ry="101.547" />
+                                                <circle style="fill:#FFF;" cx="255" cy="125" r="51.2" />
+                                                <g>
+                                                    <path style="fill:#003B992F;" d="M33.32,490.739c5.442-26.87,32.324-51.695,62.994-57.358c-3.777-0.708-7.605-1.112-11.447-1.207c4.104-0.037,8.193-0.494,12.203-1.364c-27.371-6.051-46.856-30.316-46.854-58.348c0.002-28.032,19.491-52.294,46.863-58.341c-4.182-0.915-8.449-1.38-12.73-1.387c-4.302,0.014-8.592,0.472-12.8,1.365c-27.408,6.024-46.933,30.306-46.933,58.368c0,28.062,19.525,52.344,46.933,58.368c3.851,0.798,7.768,1.234,11.7,1.305c-4.097,0.036-8.183,0.427-12.212,1.17c-30.805,5.547-57.856,30.464-63.317,57.429c-0.424,2.478,0.274,5.016,1.906,6.928c1.632,1.912,4.029,3,6.542,2.971h25.6c-2.514,0.03-4.911-1.059-6.543-2.971C33.593,495.755,32.895,493.217,33.32,490.739z" />
+                                                    <path style="fill:#003B992F;" d="M242.2,226.717c4.241,0.587,8.519,0.872,12.8,0.853c4.25-0.027,8.494-0.318,12.708-0.869c-51.152-6.464-89.507-49.971-89.507-101.53s38.354-95.066,89.505-101.531c-4.213-0.551-8.457-0.842-12.706-0.869c-4.281-0.019-8.559,0.266-12.8,0.853c-51.194,6.424-89.601,49.951-89.601,101.547S191.006,220.293,242.2,226.717z" />
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <path style="fill:#003B99;" d="M461.295,434.195c25.172-14.785,38.133-43.959,32.231-72.548c-5.902-28.59-29.357-50.246-58.326-53.854v-9.126c0-4.713-3.821-8.533-8.533-8.533c-4.713,0-8.533,3.82-8.533,8.533v9.126c-29.055,3.621-52.552,25.393-58.373,54.089c-5.821,28.695,7.334,57.902,32.681,72.559c-18.078,7.974-33.073,21.609-42.725,38.849c-13.065-21.706-32.928-38.493-56.508-47.758c30.63-16.964,45.909-52.499,37.148-86.4c-8.761-33.901-39.343-57.584-74.357-57.584s-65.596,23.683-74.357,57.584c-8.761,33.901,6.517,69.436,37.148,86.4c-23.58,9.265-43.443,26.052-56.508,47.758c-9.652-17.24-24.647-30.875-42.725-38.849c25.347-14.657,38.502-43.864,32.681-72.559c-5.821-28.695-29.318-50.467-58.373-54.089v-9.126c0-4.713-3.821-8.533-8.533-8.533s-8.533,3.82-8.533,8.533v9.126c-28.969,3.607-52.424,25.264-58.326,53.854c-5.902,28.59,7.059,57.764,32.231,72.548c-24.9,10.281-43.545,31.634-50.376,57.693c-0.985,4.869,0.28,9.923,3.442,13.754c3.277,4.032,8.2,6.369,13.396,6.358h477.667c5.196,0.01,10.119-2.326,13.396-6.358c3.162-3.831,4.427-8.885,3.442-13.754C504.84,465.829,486.195,444.476,461.295,434.195z M375.467,375.467c0-20.708,12.474-39.378,31.607-47.303c19.132-7.925,41.154-3.544,55.797,11.099s19.024,36.665,11.099,55.797c-7.925,19.132-26.594,31.607-47.303,31.607C398.403,426.636,375.498,403.731,375.467,375.467z M196.267,358.4c0-32.99,26.744-59.733,59.733-59.733s59.733,26.744,59.733,59.733S288.99,418.133,256,418.133C223.026,418.096,196.304,391.375,196.267,358.4z M34.133,375.467c0-20.708,12.474-39.378,31.607-47.303c19.132-7.925,41.154-3.544,55.797,11.099c14.643,14.643,19.024,36.665,11.099,55.797c-7.925,19.132-26.594,31.607-47.303,31.607C57.069,426.636,34.164,403.731,34.133,375.467z M17.054,495.304c5.612-27.471,37.242-51.571,67.687-51.571c31.317,0,62.108,24.258,67.65,51.225L17.054,495.304z M171.45,494.933C178.388,467.221,216.8,435.2,256,435.2s77.612,32.021,84.55,59.733H171.45z M494.833,494.933H359.613c5.554-26.958,36.337-51.2,67.646-51.2c30.446,0,62.075,24.1,67.754,51.113C494.966,494.896,494.902,494.927,494.833,494.933z" />
+                                                <path style="fill:#003B99;" d="M76.8,204.8c0,4.713,3.821,8.533,8.533,8.533s8.533-3.821,8.533-8.533v-25.6c0-4.713-3.821-8.533-8.533-8.533S76.8,174.487,76.8,179.2V204.8z" />
+                                                <path style="fill:#003B99;" d="M76.8,264.533c0,4.713,3.821,8.533,8.533,8.533s8.533-3.82,8.533-8.533v-25.6c0-4.713-3.821-8.533-8.533-8.533s-8.533,3.821-8.533,8.533V264.533z" />
+                                                <path style="fill:#003B99;" d="M435.2,179.2c0-4.713-3.821-8.533-8.533-8.533c-4.713,0-8.533,3.821-8.533,8.533v25.6c0,4.713,3.821,8.533,8.533,8.533c4.713,0,8.533-3.821,8.533-8.533V179.2z" />
+                                                <path style="fill:#003B99;" d="M426.667,230.4c-4.713,0-8.533,3.821-8.533,8.533v25.6c0,4.713,3.821,8.533,8.533,8.533c4.713,0,8.533-3.82,8.533-8.533v-25.6C435.2,234.221,431.38,230.4,426.667,230.4z" />
+                                                <path style="fill:#003B99;" d="M256,0c-4.713,0-8.533,3.821-8.533,8.533v8.966c-54.453,4.26-97.707,47.515-101.968,101.968H93.867c-9.422,0.009-17.057,7.645-17.067,17.067v8.533c0,4.713,3.821,8.533,8.533,8.533s8.533-3.821,8.533-8.533v-8.533h51.632c4.26,54.453,47.515,97.707,101.968,101.968V256c0,4.713,3.821,8.533,8.533,8.533s8.533-3.821,8.533-8.533v-17.499c54.453-4.26,97.707-47.515,101.968-101.968h51.632v8.533c0,4.713,3.821,8.533,8.533,8.533c4.713,0,8.533-3.821,8.533-8.533v-8.533c-0.009-9.422-7.645-17.057-17.067-17.067h-51.632c-4.26-54.453-47.515-97.707-101.968-101.968V8.533C264.533,3.821,260.713,0,256,0z M247.467,136.533v33.271c-16.74-3.451-29.82-16.531-33.271-33.271H247.467z M214.196,119.467c3.451-16.74,16.531-29.82,33.271-33.271v33.271H214.196z M264.533,136.533h33.271c-3.451,16.74-16.531,29.82-33.271,33.271V136.533z M264.533,119.467V86.196c16.74,3.451,29.82,16.531,33.271,33.271H264.533z M247.467,34.566v34.382c-26.159,3.814-46.704,24.36-50.519,50.519h-34.382C166.737,74.418,202.418,38.737,247.467,34.566z M162.566,136.533h34.382c3.814,26.159,24.36,46.704,50.519,50.519v34.382C202.418,217.263,166.737,181.582,162.566,136.533z M264.533,221.434v-34.382c26.159-3.814,46.704-24.36,50.519-50.519h34.382C345.264,181.582,309.582,217.263,264.533,221.434z M349.434,119.467h-34.382c-3.814-26.159-24.36-46.704-50.519-50.519V34.566C309.582,38.737,345.264,74.418,349.434,119.467z" />
+                                            </g>
+                                        </g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                    </svg>
+                                    <h4>Chat bots</h4>
+                                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                 </div>
-                                <div class="section-double-full-inner">
-                                    <div class="img-container atsfordevs-img"></div>
-                                </div>
-                            </div>
 
-                            <div class="section-double-full" id="tres-section">
-                                <div class="section-double-full-inner">
-                                    <div class="img-container section-img"></div>
-                                </div>
-
-                                <div class="section-double-full-inner">
-                                    <div class="section-double-full-contain">
-                                        <div class="pre-title">
-                                            <span>04.</span>
-                                            <hr>
-                                            <span>Tercera Seccion</span>
-                                        </div>
-                                        <div class="title">
-                                            <h1>Sección numero 3</h1>
-                                        </div>
-                                        <div class="p-section">
-                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim earum veritatis recusandae in alias asperiores quo architecto iste quae odit. Sit libero, officia animi laudantium ullam porro rerum cum magnam! Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                        </div>
-                                        <a href="#" class="button button-primary">Conoce más <i class="ri-arrow-right-line"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                        </div>
-
-                        <div class="separator middle-separator"></div>
-
-                        <div class="section-single" id="partners-section">
-                            <div class="pre-title">
-                                <span>04.</span>
-                                <hr>
-                                <span>Partners</span>
-                            </div>
-                            <div class="title">
-                                <h1>Trabajamos con los mejores</h1>
-                            </div>
-                            <div class="p-section">
-                                <p>Hemos tenido la oportunidad de trabajar hombro a hombro con otras empresas que decidieron confiar en nosotros y ahora forman parte de la historia de nuestra empresa.</p>
-                            </div>
-
-                            <div class="separator min-separator"></div>
-
-                            <div class="section-double" id="mision-vision">
-                                <div class="section-double-inner">
-                                    <div class="sub-title">
-                                        <h3>Partners Estratégicos</h3>
-                                    </div>
-                                    <div class="icon-section">
-                                        <img src="asset/web/images/dealapar.png" width="145px" alt="weblabs">
-                                        <img src="asset/web/images/mosaik.png" width="70px" alt="weblabs">
-                                        <img src="asset/web/images/gloriakriete.png" width="55px" alt="weblabs">
-                                    </div>
-                                </div>
-                                <div class="section-double-inner">
-                                    <div class="sub-title">
-                                        <h3>Partners Técnicos</h3>
-                                    </div>
-                                    <div class="icon-section">
-                                        <img src="asset/web/images/b2chat.png" width="120px" alt="">
-                                        <img src="asset/web/images/bitrix.png" width="125px" alt="weblabs">
-                                        <img src="asset/web/images/hostgator.png" width="125px" alt="weblabs">
-                                        <img src="asset/web/images/sugarcrm.svg" width="130px" alt="weblabs">
-                                        <img src="asset/web/images/speak.svg" width="60px" alt="weblabs">
-                                        <img src="asset/web/images/greengeks.png" width="130px" alt="weblabs">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="separator middle-separator"></div>
-
-                        <div class="section-single-full" id="contact-section">
-                            <div class="section-single">
-                                <div class="pre-title">
-                                    <span>05.</span>
-                                    <hr>
-                                    <span>Contacto</span>
-                                </div>
-                                <div class="title">
-                                    <h1>Iniciemos una conversación</h1>
-                                </div>
-                                <div class="p-section">
-                                    <p>Acontinuación se presenta un formulario para que puedas contarnos un poco sobre una idea de proyecto que tengas o si deseas ponerte en contacto con nosotros por cualquier otro motivo.</p>
-                                </div>
-                                                                
-                                <div class="form-container">
-                                        <form action="#">
-                                            <div class="seccionform1" id="sec1">
-                                                <div class="labform">
-                                                    <label class="label-text" for="consult-type">Tipo de consulta:</label>
-                                                </div>
-                                                <div class="formitem">
-                                                    <select name="consulta" id="consult-type" class="input-select">
-                                                        <option value="">Selecciona el tipo de consulta</option>
-                                                        <option value="1">Tengo una idea</option>
-                                                        <option value="2">Consulta de productos</option>
-                                                    </select>
-                                                </div>
-                                                <div class="labform">
-                                                    <label class="label-text" for="text-box-sec1">¿Cual es tu nombre?</label>
-                                                </div>
-                                                <div class="formitem">
-                                                    <input type="text" name="" id="text-box-sec1" class="input-text">
-                                                </div>
-                                                <div class="botonesfield">
-                                                    <!-- <input type="submit" value="Siguiente" class="btn from-left"> -->
-                                                    <div class="button_cont"><a class="button button-primary" href="#" rel="nofollow noopener" onclick="pasar()">Siguiente <i class="ri-arrow-right-line"></i></a></div>
-                                                </div>
-                                            </div>
-                                            
-                                            <!-- seccion2 -->
-                                            <div class="seccionform2 ocultar" id="sec2">
-                                                <div class="labform">
-                                                    <label class="label-text" for="">Tipo de entidad:</label>
-                                                </div>
-                                                <div class="formitem">
-                                                    <select name="consulta" id="" class="input-select">
-                                                        <option value="">Selecciona el tipo de entidad</option>
-                                                        <option value="1">Startup</option>
-                                                        <option value="2">Persona natural</option>
-                                                        <option value="3">Empresa</option>
-                                                        <option value="3">ONG</option>
-                                                    </select>
-                                                </div>
-                                                <div class="labform">
-                                                    <label class="label-text" for="">¿Cual es tu correo de contacto?</label>
-                                                </div>
-                                                <div class="formitem">
-                                                    <input type="text" name="" id="" class="input-text">
-                                                </div>
-                                                <div class="botonesfield">
-                                                    <!-- <input type="submit" value="Siguiente" class="btn from-left"> -->
-                                                    <div class="button_cont"><a class="button button-secondary" href="#"  rel="nofollow noopener" onclick="retroceder()"><i class="ri-arrow-left-line icon-reverse"></i> Anterior</a></div>
-                                                    <div class="button_cont"><a class="button button-primary" href="#"  rel="nofollow noopener"onclick="pasar2()">Siguiente <i class="ri-arrow-right-line"></i></a></div>
-                                                </div>
-                                            </div>
-                                            <!-- seccion3 -->
-                                            <div class="seccionform3 ocultar" id="sec3">
-                                                <div class="labform">
-                                                    <label class="label-text" for="">¿Cual es tu numero de contacto?</label>
-                                                </div>
-                                                <div class="formitem">
-                                                    <input type="text" name="" id="" class="input-text">
-                                                </div>
-                                                <div class="labform">
-                                                    <label class="label-text" for="">Hablanos sobre tu proyecto</label>
-                                                </div>
-                                                <div class="formitem">
-                                                    <textarea name="" id="" cols="30" rows="8" class="input-text"></textarea>
-                                                </div>
-                                                <div class="botonesfield">
-                                                    <!-- <input type="submit" value="Siguiente" class="btn from-left"> -->
-                                                    <div class="button_cont"><a class="button button-secondary" href="#"  rel="nofollow noopener" onclick="retroceder2()"> <i class="ri-arrow-left-line icon-reverse"></i>Anterior</a></div>
-                                                    <div class="button_cont"><a class="button button-primary" href="#"  rel="nofollow noopener"onclick="enviarcon()">Enviar <i class="ri-send-plane-2-line"></i></a></div>
-                                                </div>
-                                            </div>
-                                            <div class="indicador" id="indic">
-                                                <div class="formatopunto"><p class="activadoc" id="pu1"><i class="ri-checkbox-circle-fill"></i></p c></div><div class="formatoraya raya1"><hr class="" id="ray1"></div>
-                                                <div class="formatopunto"><p class="" id="pu2"><i class="ri-checkbox-circle-fill"></i></p></div><div class="formatoraya"><hr class="" id="ray2"></div>
-                                                <div class="formatopunto"><p class="" id="pu3"><i class="ri-checkbox-circle-fill"></i></p></div>
-                                            </div>
-                                        </form>
-                                        <div class="seccionform3 ocultar" id="fin">
-                                            
-                                            <div class="subtitle">
-                                                <h3>Tu mensaje ha sido enviado, pronto te contactaremos</h3>
-                                                <h4>¿Quieres hacer otra consulta?</h4>
-                                            </div>
-                                            <div class="botonesfield">
-                                                <div class="button_cont"><a class="button button-primary" href="#"  rel="nofollow noopener" onclick="nuevacon()">Nueva Consulta <i class="ri-refresh-line"></i></a></div>
-                                            </div>
-                                        </div>
+                                <div class="service service3 item">
+                                    <svg class="icon-services" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                        <g>
+                                            <g transform="translate(1 3)">
+                                                <path style="fill:#FFF;" d="M160.808,500.467l-144.64-0.001c-2.514,0.03-4.911-1.059-6.542-2.971s-2.33-4.45-1.906-6.928c5.461-26.965,32.512-51.883,63.317-57.429c4.193-0.782,8.449-1.182,12.715-1.195C123.432,431.944,160.808,466.248,160.808,500.467z" />
+                                                <path style="fill:#003B992F;" d="M135.208,500.467l-119.04-0.001c-2.514,0.03-4.911-1.059-6.542-2.971s-2.33-4.45-1.906-6.928c5.461-26.965,32.512-51.883,63.317-57.429C105.597,439.453,135.208,470.003,135.208,500.467z" />
+                                                <path style="fill:#FFF;" d="M349.223,500.467H160.807c0-30.123,35.413-66.901,76.971-75.349c5.677-1.125,11.45-1.697,17.237-1.707C303.485,423.411,349.223,466.248,349.223,500.467z" />
+                                                <path style="fill:#003B992F;" d="M323.282,500.467H160.808c0-30.123,37.376-66.901,81.237-75.349C285.906,433.565,323.282,470.344,323.282,500.467z" />
+                                                <path style="fill:#FFF;" d="M493.864,500.467l-144.64,0.001c0-30.464,29.611-61.014,64.171-67.328c4.25-0.786,8.563-1.186,12.885-1.195c35.84,0,69.803,27.989,76.032,58.624c0.424,2.478-0.274,5.016-1.906,6.928C498.774,499.408,496.377,500.496,493.864,500.467z" />
+                                                <path style="fill:#003B992F;" d="M468.264,500.467l-119.04,0.001c0-30.464,29.611-61.014,64.171-67.328c30.805,5.547,57.856,30.464,63.317,57.429c0.424,2.478-0.274,5.016-1.906,6.928C473.174,499.408,470.777,500.496,468.264,500.467z" />
+                                                <g>
+                                                    <path style="fill:#FFF;" d="M485.416,372.296c0.012,15.846-6.278,31.046-17.483,42.251s-26.405,17.494-42.251,17.483c-4.302-0.014-8.592-0.471-12.8-1.365c-27.408-6.024-46.933-30.306-46.933-58.368s19.525-52.344,46.933-58.368c4.208-0.894,8.498-1.351,12.8-1.365c15.846-0.012,31.046,6.278,42.251,17.483C479.138,341.25,485.427,356.45,485.416,372.296z" />
+                                                    <path style="fill:#FFF;" d="M323.282,355.229c0.005,18.107-7.186,35.474-19.989,48.277c-12.804,12.804-30.17,19.994-48.277,19.989c-4.294-0.005-8.579-0.405-12.8-1.195c-32.188-6.152-55.467-34.302-55.467-67.072s23.279-60.92,55.467-67.072c4.221-0.79,8.506-1.19,12.8-1.195c18.107-0.005,35.474,7.186,48.277,19.989C316.097,319.756,323.287,337.122,323.282,355.229z" />
+                                                </g>
+                                                <ellipse style="fill:#003B992F;" cx="242.217" cy="355.229" rx="55.467" ry="67.072" />
+                                                <path style="fill:#FFF;" d="M144.082,372.296c0.012,15.846-6.278,31.046-17.483,42.251s-26.405,17.494-42.251,17.483c-4.302-0.014-8.592-0.471-12.8-1.365c-27.408-6.024-46.933-30.306-46.933-58.368s19.525-52.344,46.933-58.368c4.208-0.894,8.498-1.351,12.8-1.365c15.846-0.012,31.046,6.278,42.251,17.483C137.804,341.25,144.094,356.45,144.082,372.296z" />
+                                                <g>
+                                                    <ellipse style="fill:#003B992F;" cx="412.867" cy="372.296" rx="46.933" ry="58.368" />
+                                                    <ellipse style="fill:#003B992F;" cx="71.55" cy="372.296" rx="46.933" ry="58.368" />
+                                                </g>
+                                                <path style="fill:#FFF;" d="M357.4,125c0.008,27.16-10.779,53.211-29.984,72.416C308.211,216.621,282.161,227.408,255,227.4c-4.281,0.019-8.559-0.266-12.8-0.853c-51.194-6.424-89.601-49.951-89.601-101.547S191.006,29.877,242.2,23.453c4.241-0.587,8.519-0.872,12.8-0.853c27.16-0.007,53.211,10.779,72.416,29.984C346.621,71.789,357.408,97.84,357.4,125z" />
+                                                <ellipse style="fill:#003B992F;" cx="242.2" cy="125" rx="89.6" ry="101.547" />
+                                                <circle style="fill:#FFF;" cx="255" cy="125" r="51.2" />
+                                                <g>
+                                                    <path style="fill:#003B992F;" d="M33.32,490.739c5.442-26.87,32.324-51.695,62.994-57.358c-3.777-0.708-7.605-1.112-11.447-1.207c4.104-0.037,8.193-0.494,12.203-1.364c-27.371-6.051-46.856-30.316-46.854-58.348c0.002-28.032,19.491-52.294,46.863-58.341c-4.182-0.915-8.449-1.38-12.73-1.387c-4.302,0.014-8.592,0.472-12.8,1.365c-27.408,6.024-46.933,30.306-46.933,58.368c0,28.062,19.525,52.344,46.933,58.368c3.851,0.798,7.768,1.234,11.7,1.305c-4.097,0.036-8.183,0.427-12.212,1.17c-30.805,5.547-57.856,30.464-63.317,57.429c-0.424,2.478,0.274,5.016,1.906,6.928c1.632,1.912,4.029,3,6.542,2.971h25.6c-2.514,0.03-4.911-1.059-6.543-2.971C33.593,495.755,32.895,493.217,33.32,490.739z" />
+                                                    <path style="fill:#003B992F;" d="M242.2,226.717c4.241,0.587,8.519,0.872,12.8,0.853c4.25-0.027,8.494-0.318,12.708-0.869c-51.152-6.464-89.507-49.971-89.507-101.53s38.354-95.066,89.505-101.531c-4.213-0.551-8.457-0.842-12.706-0.869c-4.281-0.019-8.559,0.266-12.8,0.853c-51.194,6.424-89.601,49.951-89.601,101.547S191.006,220.293,242.2,226.717z" />
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <path style="fill:#003B99;" d="M461.295,434.195c25.172-14.785,38.133-43.959,32.231-72.548c-5.902-28.59-29.357-50.246-58.326-53.854v-9.126c0-4.713-3.821-8.533-8.533-8.533c-4.713,0-8.533,3.82-8.533,8.533v9.126c-29.055,3.621-52.552,25.393-58.373,54.089c-5.821,28.695,7.334,57.902,32.681,72.559c-18.078,7.974-33.073,21.609-42.725,38.849c-13.065-21.706-32.928-38.493-56.508-47.758c30.63-16.964,45.909-52.499,37.148-86.4c-8.761-33.901-39.343-57.584-74.357-57.584s-65.596,23.683-74.357,57.584c-8.761,33.901,6.517,69.436,37.148,86.4c-23.58,9.265-43.443,26.052-56.508,47.758c-9.652-17.24-24.647-30.875-42.725-38.849c25.347-14.657,38.502-43.864,32.681-72.559c-5.821-28.695-29.318-50.467-58.373-54.089v-9.126c0-4.713-3.821-8.533-8.533-8.533s-8.533,3.82-8.533,8.533v9.126c-28.969,3.607-52.424,25.264-58.326,53.854c-5.902,28.59,7.059,57.764,32.231,72.548c-24.9,10.281-43.545,31.634-50.376,57.693c-0.985,4.869,0.28,9.923,3.442,13.754c3.277,4.032,8.2,6.369,13.396,6.358h477.667c5.196,0.01,10.119-2.326,13.396-6.358c3.162-3.831,4.427-8.885,3.442-13.754C504.84,465.829,486.195,444.476,461.295,434.195z M375.467,375.467c0-20.708,12.474-39.378,31.607-47.303c19.132-7.925,41.154-3.544,55.797,11.099s19.024,36.665,11.099,55.797c-7.925,19.132-26.594,31.607-47.303,31.607C398.403,426.636,375.498,403.731,375.467,375.467z M196.267,358.4c0-32.99,26.744-59.733,59.733-59.733s59.733,26.744,59.733,59.733S288.99,418.133,256,418.133C223.026,418.096,196.304,391.375,196.267,358.4z M34.133,375.467c0-20.708,12.474-39.378,31.607-47.303c19.132-7.925,41.154-3.544,55.797,11.099c14.643,14.643,19.024,36.665,11.099,55.797c-7.925,19.132-26.594,31.607-47.303,31.607C57.069,426.636,34.164,403.731,34.133,375.467z M17.054,495.304c5.612-27.471,37.242-51.571,67.687-51.571c31.317,0,62.108,24.258,67.65,51.225L17.054,495.304z M171.45,494.933C178.388,467.221,216.8,435.2,256,435.2s77.612,32.021,84.55,59.733H171.45z M494.833,494.933H359.613c5.554-26.958,36.337-51.2,67.646-51.2c30.446,0,62.075,24.1,67.754,51.113C494.966,494.896,494.902,494.927,494.833,494.933z" />
+                                                <path style="fill:#003B99;" d="M76.8,204.8c0,4.713,3.821,8.533,8.533,8.533s8.533-3.821,8.533-8.533v-25.6c0-4.713-3.821-8.533-8.533-8.533S76.8,174.487,76.8,179.2V204.8z" />
+                                                <path style="fill:#003B99;" d="M76.8,264.533c0,4.713,3.821,8.533,8.533,8.533s8.533-3.82,8.533-8.533v-25.6c0-4.713-3.821-8.533-8.533-8.533s-8.533,3.821-8.533,8.533V264.533z" />
+                                                <path style="fill:#003B99;" d="M435.2,179.2c0-4.713-3.821-8.533-8.533-8.533c-4.713,0-8.533,3.821-8.533,8.533v25.6c0,4.713,3.821,8.533,8.533,8.533c4.713,0,8.533-3.821,8.533-8.533V179.2z" />
+                                                <path style="fill:#003B99;" d="M426.667,230.4c-4.713,0-8.533,3.821-8.533,8.533v25.6c0,4.713,3.821,8.533,8.533,8.533c4.713,0,8.533-3.82,8.533-8.533v-25.6C435.2,234.221,431.38,230.4,426.667,230.4z" />
+                                                <path style="fill:#003B99;" d="M256,0c-4.713,0-8.533,3.821-8.533,8.533v8.966c-54.453,4.26-97.707,47.515-101.968,101.968H93.867c-9.422,0.009-17.057,7.645-17.067,17.067v8.533c0,4.713,3.821,8.533,8.533,8.533s8.533-3.821,8.533-8.533v-8.533h51.632c4.26,54.453,47.515,97.707,101.968,101.968V256c0,4.713,3.821,8.533,8.533,8.533s8.533-3.821,8.533-8.533v-17.499c54.453-4.26,97.707-47.515,101.968-101.968h51.632v8.533c0,4.713,3.821,8.533,8.533,8.533c4.713,0,8.533-3.821,8.533-8.533v-8.533c-0.009-9.422-7.645-17.057-17.067-17.067h-51.632c-4.26-54.453-47.515-97.707-101.968-101.968V8.533C264.533,3.821,260.713,0,256,0z M247.467,136.533v33.271c-16.74-3.451-29.82-16.531-33.271-33.271H247.467z M214.196,119.467c3.451-16.74,16.531-29.82,33.271-33.271v33.271H214.196z M264.533,136.533h33.271c-3.451,16.74-16.531,29.82-33.271,33.271V136.533z M264.533,119.467V86.196c16.74,3.451,29.82,16.531,33.271,33.271H264.533z M247.467,34.566v34.382c-26.159,3.814-46.704,24.36-50.519,50.519h-34.382C166.737,74.418,202.418,38.737,247.467,34.566z M162.566,136.533h34.382c3.814,26.159,24.36,46.704,50.519,50.519v34.382C202.418,217.263,166.737,181.582,162.566,136.533z M264.533,221.434v-34.382c26.159-3.814,46.704-24.36,50.519-50.519h34.382C345.264,181.582,309.582,217.263,264.533,221.434z M349.434,119.467h-34.382c-3.814-26.159-24.36-46.704-50.519-50.519V34.566C309.582,38.737,345.264,74.418,349.434,119.467z" />
+                                            </g>
+                                        </g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                        <g></g>
+                                    </svg>
+                                    <h4>Data analytics</h4>
+                                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                 </div>
                             </div>
                         </div>
 
                     </div>
-                
+                    <div class="separator middle-separator"></div>
+
+
+                    <div class="section-single-full" id="contact-section">
+                        <div class="section-single">
+                            <div class="pre-title">
+                                <span>06.</span>
+                                <hr>
+                                <span>Contacto</span>
+                            </div>
+                            <div class="title">
+                                <h1>Iniciemos una conversación</h1>
+                            </div>
+                            <div class="p-section">
+                                <p>Acontinuación se presenta un formulario para que puedas contarnos un poco sobre una idea de proyecto que tengas o si deseas ponerte en contacto con nosotros por cualquier otro motivo.</p>
+                            </div>
+
+                            <div class="form-container">
+                                <form action="#">
+                                    <div class="seccionform1" id="sec1">
+                                        <div class="labform">
+                                            <label class="label-text" for="consult-type">Tipo de consulta:</label>
+                                        </div>
+                                        <div class="formitem">
+                                            <select name="consulta" id="consult-type" class="input-select">
+                                                <option value="">Selecciona el tipo de consulta</option>
+                                                <option value="1">Tengo una idea</option>
+                                                <option value="2">Consulta de productos</option>
+                                            </select>
+                                        </div>
+                                        <div class="labform">
+                                            <label class="label-text" for="text-box-sec1">¿Cual es tu nombre?</label>
+                                        </div>
+                                        <div class="formitem">
+                                            <input type="text" name="" id="text-box-sec1" class="input-text">
+                                        </div>
+                                        <div class="botonesfield">
+                                            <!-- <input type="submit" value="Siguiente" class="btn from-left"> -->
+                                            <div class="button_cont"><a class="button button-primary" href="#" rel="nofollow noopener" onclick="pasar()">Siguiente <i class="ri-arrow-right-line"></i></a></div>
+                                        </div>
+                                    </div>
+
+                                    <!-- seccion2 -->
+                                    <div class="seccionform2 ocultar" id="sec2">
+                                        <div class="labform">
+                                            <label class="label-text" for="">Tipo de entidad:</label>
+                                        </div>
+                                        <div class="formitem">
+                                            <select name="consulta" id="" class="input-select">
+                                                <option value="">Selecciona el tipo de entidad</option>
+                                                <option value="1">Startup</option>
+                                                <option value="2">Persona natural</option>
+                                                <option value="3">Empresa</option>
+                                                <option value="3">ONG</option>
+                                            </select>
+                                        </div>
+                                        <div class="labform">
+                                            <label class="label-text" for="">¿Cual es tu correo de contacto?</label>
+                                        </div>
+                                        <div class="formitem">
+                                            <input type="text" name="" id="" class="input-text">
+                                        </div>
+                                        <div class="botonesfield">
+                                            <!-- <input type="submit" value="Siguiente" class="btn from-left"> -->
+                                            <div class="button_cont"><a class="button button-secondary" href="#" rel="nofollow noopener" onclick="retroceder()"><i class="ri-arrow-left-line icon-reverse"></i> Anterior</a></div>
+                                            <div class="button_cont"><a class="button button-primary" href="#" rel="nofollow noopener" onclick="pasar2()">Siguiente <i class="ri-arrow-right-line"></i></a></div>
+                                        </div>
+                                    </div>
+                                    <!-- seccion3 -->
+                                    <div class="seccionform3 ocultar" id="sec3">
+                                        <div class="labform">
+                                            <label class="label-text" for="">¿Cual es tu numero de contacto?</label>
+                                        </div>
+                                        <div class="formitem">
+                                            <input type="text" name="" id="" class="input-text">
+                                        </div>
+                                        <div class="labform">
+                                            <label class="label-text" for="">Hablanos sobre tu proyecto</label>
+                                        </div>
+                                        <div class="formitem">
+                                            <textarea name="" id="" cols="30" rows="8" class="input-text"></textarea>
+                                        </div>
+                                        <div class="botonesfield">
+                                            <!-- <input type="submit" value="Siguiente" class="btn from-left"> -->
+                                            <div class="button_cont"><a class="button button-secondary" href="#" rel="nofollow noopener" onclick="retroceder2()"> <i class="ri-arrow-left-line icon-reverse"></i>Anterior</a></div>
+                                            <div class="button_cont"><a class="button button-primary" href="#" rel="nofollow noopener" onclick="enviarcon()">Enviar <i class="ri-send-plane-2-line"></i></a></div>
+                                        </div>
+                                    </div>
+                                    <div class="indicador" id="indic">
+                                        <div class="formatopunto">
+                                            <p class="activadoc" id="pu1"><i class="ri-checkbox-circle-fill"></i></p c>
+                                        </div>
+                                        <div class="formatoraya raya1">
+                                            <hr class="" id="ray1">
+                                        </div>
+                                        <div class="formatopunto">
+                                            <p class="" id="pu2"><i class="ri-checkbox-circle-fill"></i></p>
+                                        </div>
+                                        <div class="formatoraya">
+                                            <hr class="" id="ray2">
+                                        </div>
+                                        <div class="formatopunto">
+                                            <p class="" id="pu3"><i class="ri-checkbox-circle-fill"></i></p>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div class="seccionform3 ocultar" id="fin">
+
+                                    <div class="subtitle">
+                                        <h3>Tu mensaje ha sido enviado, pronto te contactaremos</h3>
+                                        <h4>¿Quieres hacer otra consulta?</h4>
+                                    </div>
+                                    <div class="botonesfield">
+                                        <div class="button_cont"><a class="button button-primary" href="#" rel="nofollow noopener" onclick="nuevacon()">Nueva Consulta <i class="ri-refresh-line"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+
             </div>
+        </div>
 
         </div>
 
-            <!-- <div class="u10 u10v6"></div> -->
-            <!-- /CH08v1 -->
-            <!-- /CH08v1 -->
-            <!-- <div class="cw29">
+        <!-- <div class="u10 u10v6"></div> -->
+        <!-- /CH08v1 -->
+        <!-- /CH08v1 -->
+        <!-- <div class="cw29">
                 <div class="cw29w1">
                     <ul class="cw29items"> -->
-                        <!--<ul data-trackas="cw29items" class="cw29items">-->
+        <!--<ul data-trackas="cw29items" class="cw29items">-->
 
 
-                    <!-- </ul>
+        <!-- </ul>
                 </div>
             </div> -->
-            <!-- Footer -->
-            <footer class="footer-ats-centered cont section-single-full" id="footer">
-                <div class="section-single">
-                    <a class="footer-company-logo" href="#">
-                        <img src="asset/web/images/atsfooter.png" />
-                    </a>
-                    <ul class="footer-links">
+        <!-- Footer -->
+        <footer class="footer-ats-centered cont section-single-full" id="footer">
+            <div class="section-single">
+                <a class="footer-company-logo" href="#">
+                    <img src="asset/web/images/atsfooter.png" />
+                </a>
+                <ul class="footer-links">
 
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Servicios</a></li>
-                        <li><a href="#">Nosotros</a></li>
-                        <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+                <address>
+                    <ul class="footer-contact-info">
+                        <li><a href="mailto:bussinness@atsgroup.tech">Email: business@atsgroup.tech</a></li>
+                        <li><span>El Salvador, Cima 3 Pasaje 21 #53-E, San Salvador.</span></li>
+                        <li><span>EE UU, Oviedo florida.</span></li>
                     </ul>
-                    <address>
-                        <ul class="footer-contact-info">
-                            <li><a href="mailto:bussinness@atsgroup.tech">Email: business@atsgroup.tech</a></li>
-                            <li><span>El Salvador, Cima 3 Pasaje 21 #53-E, San Salvador.</span></li>
-                            <li><span>EE UU, Oviedo florida.</span></li>
-                        </ul>
-                    </address>
+                </address>
 
-                    <div class="bottom-footer">
-                        <span class="footer-copyright">2019 ©  ATS Group Todos los derechos reservados </span>
-                        <ul class="social-media-container">
-                            <li><a href="#"><i class="ri-facebook-box-fill"></i></a></li>
-                            <li><a href="#"><i class="ri-linkedin-box-fill"></i></a></li>
-                        </ul>
-                    </div>
+                <div class="bottom-footer">
+                    <span class="footer-copyright">2019 © ATS Group Todos los derechos reservados </span>
+                    <ul class="social-media-container">
+                        <li><a href="#"><i class="ri-facebook-box-fill"></i></a></li>
+                        <li><a href="#"><i class="ri-linkedin-box-fill"></i></a></li>
+                    </ul>
                 </div>
-            </footer>
-        </main>
-        <!-- /U10v0 -->
-        <!-- Resource jQuery -->
-        
-        <script src="/asset/web/js/main.js"></script>
-        <script>
-            var sec1 = document.getElementById('sec1');
-            var sec2 = document.getElementById('sec2');
-            var sec3 = document.getElementById('sec3');
-            var p2 = document.getElementById('pu2');
-            var r1 = document.getElementById('ray1');
-            var r2 = document.getElementById('ray2');
-            var p3 = document.getElementById('pu3');
-            var fin = document.getElementById('fin');
-            var ind = document.getElementById('indic');
+            </div>
+        </footer>
+    </main>
+    <!-- /U10v0 -->
+    <!-- Resource jQuery -->
 
-            function pasar(){
-                sec1.classList.add('ocultar');
-                sec2.classList.remove('ocultar');
-                sec2.classList.add('dentro');
-                p2.classList.add('activadoc')
-                r1.classList.add('activador');
-                
+    <script src="/asset/web/js/main.js"></script>
+    <script>
+        var sec1 = document.getElementById('sec1');
+        var sec2 = document.getElementById('sec2');
+        var sec3 = document.getElementById('sec3');
+        var p2 = document.getElementById('pu2');
+        var r1 = document.getElementById('ray1');
+        var r2 = document.getElementById('ray2');
+        var p3 = document.getElementById('pu3');
+        var fin = document.getElementById('fin');
+        var ind = document.getElementById('indic');
 
-            }
-            function retroceder(){
-                sec2.classList.add('ocultar');
-                sec1.classList.remove('ocultar');
-                sec1.classList.add('dentro');
-                p2.classList.remove('activadoc');
-                r1.classList.remove('activador');
-            }
-            function pasar2(){
-                sec2.classList.add('ocultar');
-                sec3.classList.remove('ocultar');
-                sec3.classList.add('dentro');
-                p3.classList.add('activadoc')
-                r2.classList.add('activador');
-            }
-            function retroceder2(){
-                sec3.classList.add('ocultar');
-                sec2.classList.remove('ocultar');
-                sec2.classList.add('dentro');
-                p3.classList.remove('activadoc');
-                r2.classList.remove('activador');
-            }
-            function enviarcon(){
-                sec3.classList.add('ocultar');
-                fin.classList.remove('ocultar');
-                fin.classList.add('dentro');
-                ind.classList.add('ocultar');
-            }
-            function nuevacon(){
-                fin.classList.add('ocultar');
-                sec1.classList.remove('ocultar');
-                ind.classList.remove('ocultar');
-                p2.classList.remove('activadoc');
-                r1.classList.remove('activador');
-                p3.classList.remove('activadoc');
-                r2.classList.remove('activador');
-            }
-        </script>
-    </body>
+        function pasar() {
+            sec1.classList.add('ocultar');
+            sec2.classList.remove('ocultar');
+            sec2.classList.add('dentro');
+            p2.classList.add('activadoc')
+            r1.classList.add('activador');
+
+
+        }
+
+        function retroceder() {
+            sec2.classList.add('ocultar');
+            sec1.classList.remove('ocultar');
+            sec1.classList.add('dentro');
+            p2.classList.remove('activadoc');
+            r1.classList.remove('activador');
+        }
+
+        function pasar2() {
+            sec2.classList.add('ocultar');
+            sec3.classList.remove('ocultar');
+            sec3.classList.add('dentro');
+            p3.classList.add('activadoc')
+            r2.classList.add('activador');
+        }
+
+        function retroceder2() {
+            sec3.classList.add('ocultar');
+            sec2.classList.remove('ocultar');
+            sec2.classList.add('dentro');
+            p3.classList.remove('activadoc');
+            r2.classList.remove('activador');
+        }
+
+        function enviarcon() {
+            sec3.classList.add('ocultar');
+            fin.classList.remove('ocultar');
+            fin.classList.add('dentro');
+            ind.classList.add('ocultar');
+        }
+
+        function nuevacon() {
+            fin.classList.add('ocultar');
+            sec1.classList.remove('ocultar');
+            ind.classList.remove('ocultar');
+            p2.classList.remove('activadoc');
+            r1.classList.remove('activador');
+            p3.classList.remove('activadoc');
+            r2.classList.remove('activador');
+        }
+
+    </script>
+</body>
 
 
 </html>
